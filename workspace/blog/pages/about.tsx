@@ -1,3 +1,4 @@
+import Contact from "components/contact"
 import Container from "components/container"
 import Hero from "components/hero"
 
@@ -33,6 +34,7 @@ export default function About() {
       <p className="pt-1">
         公開リポジトリを活用すると、全世界のどこからでもアクセスし、開発者が関連するプロジェクトのタスクを利用することができます。
       </p> */}
+      <Contact />
     </Container>
   )
 }
