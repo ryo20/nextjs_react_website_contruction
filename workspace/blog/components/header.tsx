@@ -1,11 +1,13 @@
-import Logo from "./logo";
-import Nav from "../components/nav";
+import Nav from "components/nav";
+import Container from "components//container";
 
 export default function Header() {
   return (
-    <header>
+    <header className="bg-teal-500">
       {/* <Logo /> */}
-      <Nav />
+      <Container>
+        <Nav />
+      </Container>
     </header>
   )
 }

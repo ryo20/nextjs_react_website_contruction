@@ -1,11 +1,14 @@
-import Hero from "../../components/hero"
+import Container from "components/container"
+import Hero from "components/hero"
 
 export default function Blog() {
   return (
-    <Hero
-      title="Blog"
-      subtitle="Recent Posts"
-      imageOn={false}
-    />
+    <Container>
+      <Hero
+        title="Blog"
+        subtitle="Recent Posts"
+        imageOn={false}
+      />
+    </Container>
   )
 }
