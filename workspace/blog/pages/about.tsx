@@ -1,4 +1,4 @@
-import Head from "next/head"
+import Meta from "components/meta"
 import Container from "components/container"
 import Hero from "components/hero"
 import Image from "next/image"
@@ -12,6 +12,12 @@ import {
 export default function About() {
   return (
     <Container>
+      <Meta pageTitle="アバウト"
+        pageDesc="About development activities"
+        pageImg={eyecatch.src}
+        pageImgW={eyecatch.width}
+        pageImgH={eyecatch.height}
+      />
       <Hero
         title="About"
         subtitle="About development activities"
