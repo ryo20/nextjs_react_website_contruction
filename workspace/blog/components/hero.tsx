@@ -1,3 +1,6 @@
+import Image from "next/image"
+import cube from "images/cube.jpg"
+
 export default function Hero({ title, subtitle, imageOn }:
   { title: string, subtitle: string, imageOn: boolean }) {
   return (
@@ -6,7 +9,14 @@ export default function Hero({ title, subtitle, imageOn }:
         <h1 className="text-8xl font-sans font-bold tracking-widest">{title}</h1>
         <p className="text-base">{subtitle}</p>
       </div>
-      {imageOn && <figure>[画像]</figure>}
+      {imageOn && (
+        <figure className="duration-200">
+          <Image src={cube} alt="" layout="responsive"
+            sizes="(min-width: 1152px) 576px, 100vw"
+            priority
+            placeholder="blur" />
+        </figure>
+      )}
     </div>
   )
 }
