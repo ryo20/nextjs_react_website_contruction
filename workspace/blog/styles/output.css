@@ -636,6 +636,10 @@ video {
   flex-grow: 1;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -670,6 +674,14 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .self-start {
@@ -882,6 +894,10 @@ video {
 @media (min-width: 768px) {
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:justify-between {
