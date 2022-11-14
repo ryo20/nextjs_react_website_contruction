@@ -9,6 +9,8 @@ import Link from "next/link"
 import Meta from "components/meta"
 import { extractText } from "lib/extract-text"
 import { eyecatchLocal } from "lib/constants"
+import { prevNextPost } from "lib/prev-next-post"
+import Pagination from "components/pagination"
 
 export default function Post({
   title,
@@ -16,14 +18,18 @@ export default function Post({
   content,
   eyecatch,
   categories,
-  description
+  description,
+  prevPost,
+  nextPost
 }: {
   title: string,
   publish: string,
   content: string,
   eyecatch: { url: string, height: number, width: number },
   categories: { name: string, slug: string }[],
-  description: string
+  description: string,
+  prevPost: { title: string, slug: string },
+  nextPost: { title: string, slug: string },
 }) {
   return (
     <Container>
@@ -65,6 +71,12 @@ export default function Post({
             </ul>
           </div>
         </div>
+        <Pagination
+          prevText={prevPost.title}
+          prevUrl={`/blog/${prevPost.slug}`}
+          nextText={nextPost.title}
+          nextUrl={`/blog/${nextPost.slug}`}
+        />
       </article>
 
     </Container>
@@ -86,6 +98,9 @@ export async function getStaticProps(context: any) {
   const description = extractText(post.content)
   const eyecatch = post.eyecatch ?? eyecatchLocal
 
+  const allSlugs = await getAllSlugs()
+  const [prevPost, nextPost] = prevNextPost(allSlugs, slug)
+
   return {
     props: {
       title: post.title,
@@ -93,7 +108,9 @@ export async function getStaticProps(context: any) {
       content: post.content,
       eyecatch: eyecatch,
       categories: post.categories,
-      description: description
+      description: description,
+      prevPost: prevPost,
+      nextPost: nextPost,
     },
   }
 }
