@@ -15,7 +15,7 @@ export default function Home({ posts }: {
       <Meta />
       <Hero
         title="CUBE"
-        subtitle="会うトップっとしていくサイト"
+        subtitle="アウトプットしていくサイト"
         imageOn={true}
       />
       <Posts posts={posts} />
