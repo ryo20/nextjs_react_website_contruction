@@ -6,8 +6,8 @@ export default function Posts({ posts }: {
   return (
     <div className="grid grid-cols-2 gap-2 mt-2 mb-8">
       {posts.map(({ title, slug, eyecatch }) => (
-        <div>
-          <article key={slug}>
+        <div key={slug}>
+          <article>
             <Link href={`/blog/${slug}`} className="font-bold">
               <figure className="relative aspect-video">
                 <Image
