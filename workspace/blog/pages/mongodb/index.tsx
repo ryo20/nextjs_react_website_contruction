@@ -9,7 +9,7 @@ export default function Home({ armors }: { armors: Armor[] }) {
       <div>
         {armors.map((armor, index) => {
           return (
-            <div className="card">
+            <div className="card" key={index}>
               <h2>{armor.name}</h2>
               <p>{armor.rarity}</p>
               <p>{armor.equipmentType}</p>
