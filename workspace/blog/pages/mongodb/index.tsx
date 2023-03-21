@@ -1,14 +1,13 @@
 
 import clientPromise from "lib/mongodb";
 import { Armor } from "lib/mongodb";
-import { ObjectId } from 'mongodb'
 
 
 export default function Home({ armors }: { armors: Armor[] }) {
   return (
     <div className="container">
       <div>
-        {armors.map((armor) => {
+        {armors.map((armor, index) => {
           return (
             <div className="card">
               <h2>{armor.name}</h2>
@@ -31,8 +30,9 @@ export async function getServerSideProps(context: any) {
 
   const db = client.db("mhrsb");
 
-  const res = db.collection("sample_armors").find({},).limit(10).toArray();
-  const armors: Armor[] = JSON.parse(JSON.stringify(res));
+  let armors = await db.collection("sample_armors").find({}).limit(10).toArray();
+  console.log(String(armors))
+  armors = JSON.parse(JSON.stringify(armors));
   return {
     props: { armors },
   };
