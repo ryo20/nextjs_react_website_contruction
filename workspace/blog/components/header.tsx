@@ -27,8 +27,14 @@ export default function Header() {
               <Link href="/about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                 About
               </Link>
-              <Link href="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+              <Link href="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                 Blog
+              </Link>
+              <Link href="/mongodb" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Mongodb
+              </Link>
+              <Link href="/skill_simulator" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                Skill Sim
               </Link>
             </div>
             <div>
