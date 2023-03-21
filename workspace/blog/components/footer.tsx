@@ -26,6 +26,16 @@ export default function Footer() {
               Blog
             </Link>
           </div>
+          <div>
+            <Link href="/mongodb" className="mt-4  text-teal-200 hover:text-white mr-4">
+              Mongodb
+            </Link>
+          </div>
+          <div>
+            <Link href="/skill_simulator" className="mt-4  text-teal-200 hover:text-white mr-4">
+              Skill Sim
+            </Link>
+          </div>
         </div>
         <ul className="flex justify-center gap-6 text-2xl ">
           <li className='text-teal-200 hover:text-white'>
