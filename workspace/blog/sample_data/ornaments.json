@@ -1,0 +1,27 @@
+{
+  "name": "Attack jewel",
+  "rarity": 1,
+  "skill": {
+    "name": "Attack Boost",
+    "level": 1
+  },
+  "slot": 2
+}
+{
+  "name": "Defense jewel",
+  "rarity": 1,
+  "skill": {
+    "name": "Defense Boost",
+    "level": 1
+  },
+  "slot": 1
+}
+{
+  "name": "Speed jewel",
+  "rarity": 1,
+  "skill": {
+    "name": "Speed Boost",
+    "level": 1
+  },
+  "slot": 3
+}

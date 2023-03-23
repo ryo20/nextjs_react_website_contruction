@@ -18,6 +18,13 @@ export type Armor = {
   skills: { name: string, level: number }[]
   slots: number[]
 }
+export type Ornament = {
+  _id?: ObjectId
+  name: string
+  rarity: number
+  skill: { name: string, level: number }
+  slot: number
+}
 
 let client
 let clientPromise
