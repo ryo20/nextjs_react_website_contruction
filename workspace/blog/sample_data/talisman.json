@@ -1,0 +1,57 @@
+{
+  "name": "sample1 talisman",
+  "rarity": 1,
+  "skills": [
+    {
+      "name": "Attack Boost",
+      "level": 3
+    },
+    {
+      "name": "Defense Boost",
+      "level": 1
+    }
+  ],
+  "slots": [
+    2,
+    0,
+    0
+  ]
+}
+{
+  "name": "sample2 talisman",
+  "rarity": 4,
+  "skills": [
+    {
+      "name": "Defense Boost",
+      "level": 3
+    },
+    {
+      "name": "Speed Boost",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "sample3 talisman",
+  "rarity": 2,
+  "skills": [
+    {
+      "name": "Speed Boost",
+      "level": 2
+    },
+    {
+      "name": "Attack Boost",
+      "level": 1
+    }
+  ],
+  "slots": [
+    2,
+    1,
+    1
+  ]
+}
