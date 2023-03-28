@@ -1,7 +1,7 @@
 {
   "name": "Leather Headgear",
   "rarity": 1,
-  "equipmentType": "head",
+  "equipment_type": "head",
   "defense": 4,
   "resistance": {
     "fire": 1,
@@ -29,7 +29,7 @@
 {
   "name": "Chainmail Vest",
   "rarity": 1,
-  "equipmentType": "body",
+  "equipment_type": "body",
   "defense": 8,
   "resistance": {
     "fire": 2,
@@ -53,7 +53,7 @@
 {
   "name": "Leather Armguards",
   "rarity": 1,
-  "equipmentType": "arm",
+  "equipment_type": "arm",
   "defense": 4,
   "resistance": {
     "fire": -1,
@@ -77,7 +77,7 @@
 {
   "name": "Leather Belt",
   "rarity": 1,
-  "equipmentType": "waist",
+  "equipment_type": "waist",
   "defense": 4,
   "resistance": {
     "fire": 1,
@@ -101,7 +101,7 @@
 {
   "name": "Leather Greaves",
   "rarity": 1,
-  "equipmentType": "leg",
+  "equipment_type": "leg",
   "defense": 4,
   "resistance": {
     "fire": 0,
