@@ -12,7 +12,7 @@ export default function Home({ armors }: { armors: Armor[] }) {
             <div className="card" key={index}>
               <h2>{armor.name}</h2>
               <p>{armor.rarity}</p>
-              <p>{armor.equipmentType}</p>
+              <p>{armor.equipment_type}</p>
               <p>{armor.defense}</p>
               <p>{armor.resistance.fire}{armor.resistance.water}{armor.resistance.thunder}{armor.resistance.ice}{armor.resistance.dragon}</p>
               <p>{JSON.stringify(armor.skills)}</p>
