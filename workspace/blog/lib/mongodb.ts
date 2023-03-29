@@ -12,7 +12,7 @@ export type Armor = {
   _id?: ObjectId
   name: string
   rarity: number
-  equipmentType: "head" | "body" | "arm" | "waist" | "leg"
+  equipment_type: "head" | "body" | "arm" | "waist" | "leg"
   defense: number
   resistance: { fire: number, water: number, thunder: number, ice: number, dragon: number }
   skills: { name: string, level: number }[]
@@ -24,6 +24,20 @@ export type Ornament = {
   rarity: number
   skill: { name: string, level: number }
   slot: number
+}
+export type Talisman = {
+  _id?: ObjectId
+  name: string
+  rarity: number
+  skills: { name: string, level: number }[]
+  slots: number[]
+}
+export type Skill = {
+  _id?: ObjectId
+  name: string
+  slot: number
+  max_level: number
+  description: string
 }
 
 let client
