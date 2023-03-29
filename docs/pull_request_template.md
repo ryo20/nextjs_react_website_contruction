@@ -1,6 +1,7 @@
 ## チケットへのリンク
 
 * https://example.com
+* resolve #xx
 
 ## レビュー期限
 
