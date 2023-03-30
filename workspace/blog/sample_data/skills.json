@@ -1,18 +1,24 @@
 {
-  "name": "Attack Boost",
+  "name": "攻撃",
   "slot": 2,
   "max_level": 7,
+  "type": "パラメータ変化",
+  "kana": "こうげき",
   "description": "攻撃力が上昇する"
 }
 {
-  "name": "Defense Boost",
+  "name": "防御",
   "slot": 1,
   "max_level": 7,
+  "type": "パラメータ変化",
+  "kana": "ぼうぎょ",
   "description": "防御力が上昇する"
 }
 {
-  "name": "Speed Boost",
-  "slot": 3,
+  "name": "回避距離UP",
+  "slot": 2,
   "max_level": 3,
-  "description": "回避力が上昇する"
+  "type": "戦闘（生存）",
+  "kana": "かいひきょりあっぷ",
+  "description": "回避距離がのびる"
 }

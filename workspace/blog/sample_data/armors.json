@@ -12,11 +12,11 @@
   },
   "skills": [
     {
-      "name": "Attack Boost",
+      "name": "攻撃",
       "level": 1
     },
     {
-      "name": "Defense Boost",
+      "name": "防御",
       "level": 3
     }
   ],
@@ -40,7 +40,7 @@
   },
   "skills": [
     {
-      "name": "Defense Boost",
+      "name": "防御",
       "level": 1
     }
   ],
@@ -64,7 +64,7 @@
   },
   "skills": [
     {
-      "name": "Speed Sharpening",
+      "name": "回避距離UP",
       "level": 1
     }
   ],
@@ -88,7 +88,7 @@
   },
   "skills": [
     {
-      "name": "Evade Window",
+      "name": "回避距離UP",
       "level": 1
     }
   ],
@@ -112,7 +112,7 @@
   },
   "skills": [
     {
-      "name": "Constitution",
+      "name": "回避距離UP",
       "level": 1
     }
   ],
