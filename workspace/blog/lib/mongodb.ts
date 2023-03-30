@@ -37,6 +37,8 @@ export type Skill = {
   name: string
   slot: number
   max_level: number
+  type: string
+  kana: string
   description: string
 }
 

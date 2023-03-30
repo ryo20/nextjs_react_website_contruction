@@ -3,11 +3,11 @@
   "rarity": 1,
   "skills": [
     {
-      "name": "Attack Boost",
+      "name": "攻撃",
       "level": 3
     },
     {
-      "name": "Defense Boost",
+      "name": "防御",
       "level": 1
     }
   ],
@@ -22,11 +22,11 @@
   "rarity": 4,
   "skills": [
     {
-      "name": "Defense Boost",
+      "name": "防御",
       "level": 3
     },
     {
-      "name": "Speed Boost",
+      "name": "回避距離UP",
       "level": 1
     }
   ],
@@ -41,11 +41,11 @@
   "rarity": 2,
   "skills": [
     {
-      "name": "Speed Boost",
+      "name": "回避距離UP",
       "level": 2
     },
     {
-      "name": "Attack Boost",
+      "name": "攻撃",
       "level": 1
     }
   ],
