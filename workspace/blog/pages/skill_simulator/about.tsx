@@ -1,4 +1,4 @@
-// 現状はmongodb/index.tsxのコピー
+// skillsimulator.tsxのお試し用
 import clientPromise, { Skill } from "lib/mongodb";
 import { Armor } from "lib/mongodb";
 import Container from "components/container"
@@ -16,12 +16,11 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
 
     // Cast the event target to an html form
     const form = event.target as HTMLFormElement
-    console.log(form)
+
     // Get data from the form.
     const data = {
-      kaihi: form.回避距離UP.value as string,
-      kougeki: form.攻撃.value as string,
-      bougyo: form.防御.value as string,
+      first: form.first.value as string,
+      last: form.last.value as string,
     }
 
     // Send the form data to our API and get a response.
@@ -39,7 +38,7 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
     // Get the response data from server as JSON.
     // If server returns the name submitted, that means the form works.
     const result = await response.json()
-    alert(`${result.data}`)
+    alert(`Is this your full name: ${result.data}`)
   }
   return (
     <Container>
@@ -49,7 +48,7 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
         imageOn={true}
       />
       {/* TODO:ボタンクリック時にレベル選択したスキルの名前とそのレベルを取得する */}
-      <form className="w-full max-w-x" onSubmit={handleSubmit}>
+      <form className="w-full max-w-x" action="/api/form" method="post">
         <div className="grid grid-cols-5 gap-2 mt-2 mb-8 text-xl">
           {skills.map((skill) => <Select skill={skill}></Select>)}
         </div>
@@ -57,7 +56,16 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
           type="submit"
           value="Submit"
           className="btn btn-info"
+          onClick={(e) => e.preventDefault()}
+          onSubmit={(e) => e.preventDefault()}
         />
+      </form>
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="first">First Name</label>
+        <input type="text" id="first" name="first" required />
+        <label htmlFor="last">Last Name</label>
+        <input type="text" id="last" name="last" required />
+        <button type="submit">Submit</button>
       </form>
       <div>
         <p>検索結果</p>
