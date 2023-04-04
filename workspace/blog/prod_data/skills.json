@@ -94,3 +94,531 @@
   "kana": "はぎとりめいじん",
   "description": ""
 }
+{
+  "name": "幸運",
+  "slot": 0,
+  "max_level": 1,
+  "type": "クエスト",
+  "kana": "こううん",
+  "description": ""
+}
+{
+  "name": "捕獲名人",
+  "slot": 0,
+  "max_level": 1,
+  "type": "クエスト",
+  "kana": "ほかくめいじん",
+  "description": ""
+}
+{
+  "name": "供応",
+  "slot": 0,
+  "max_level": 1,
+  "type": "クエスト",
+  "kana": "きょうおう",
+  "description": ""
+}
+{
+  "name": "壁面移動【翔】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "クエスト",
+  "kana": "へきめんいどうしょう",
+  "description": ""
+}
+{
+  "name": "風纏",
+  "slot": 0,
+  "max_level": 1,
+  "type": "クエスト",
+  "kana": "かぜまとい",
+  "description": ""
+}
+{
+  "name": "早食い",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "はやぐい",
+  "description": ""
+}
+{
+  "name": "体力回復量UP",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "たいりょくかいふくりょうあっぷ",
+  "description": ""
+}
+{
+  "name": "アイテム使用強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "あいてむしようきょうか",
+  "description": ""
+}
+{
+  "name": "キノコ大好き",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "きのこだいすき",
+  "description": ""
+}
+{
+  "name": "満足感",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "まんぞくかん",
+  "description": ""
+}
+{
+  "name": "広域化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "こういきか",
+  "description": ""
+}
+{
+  "name": "ボマー",
+  "slot": 0,
+  "max_level": 1,
+  "type": "アイテム",
+  "kana": "ボマー",
+  "description": ""
+}
+{
+  "name": "泡沫の舞",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "うたかたのまい",
+  "description": ""
+}
+{
+  "name": "回避性能",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "かいひせいのう",
+  "description": ""
+}
+{
+  "name": "回避距離UP",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "かいひきょりあっぷ",
+  "description": ""
+}
+{
+  "name": "飛び込み",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "とびこみ",
+  "description": ""
+}
+{
+  "name": "ガード性能",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "がーどせいのう",
+  "description": ""
+}
+{
+  "name": "ガード強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "がーどきょうか",
+  "description": ""
+}
+{
+  "name": "精霊の加護",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "せいれいのかご",
+  "description": ""
+}
+{
+  "name": "納刀術",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "のうとうじゅつ",
+  "description": ""
+}
+{
+  "name": "ひるみ軽減",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "ひるみけいげん",
+  "description": ""
+}
+{
+  "name": "回復速度",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "かいふくそくど",
+  "description": ""
+}
+{
+  "name": "血氣",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "けっき",
+  "description": ""
+}
+{
+  "name": "合気",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "あいき",
+  "description": ""
+}
+{
+  "name": "激昂",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "",
+  "description": "げきこう"
+}
+{
+  "name": "根性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "こんじょう",
+  "description": ""
+}
+{
+  "name": "剛心",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "ごうしん",
+  "description": ""
+}
+{
+  "name": "煽衛",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（生存）",
+  "kana": "せんえい",
+  "description": ""
+}
+{
+  "name": "耳栓",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "みみせん",
+  "description": ""
+}
+{
+  "name": "風圧耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "ふうあつたいせい",
+  "description": ""
+}
+{
+  "name": "耐震",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "たいしん",
+  "description": ""
+}
+{
+  "name": "気絶耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "きぜつたいせい",
+  "description": ""
+}
+{
+  "name": "麻痺耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "まひたいせい",
+  "description": ""
+}
+{
+  "name": "毒耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "どくたいせい",
+  "description": ""
+}
+{
+  "name": "睡眠耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "すいみんたいせい",
+  "description": ""
+}
+{
+  "name": "泥雪耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "でいせつたいせい",
+  "description": ""
+}
+{
+  "name": "爆破やられ耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "ばくはやられたいせい",
+  "description": ""
+}
+{
+  "name": "属性やられ耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "ぞくせいやられたいせい",
+  "description": ""
+}
+{
+  "name": "鬼火纏",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "おにびまとい",
+  "description": ""
+}
+{
+  "name": "疾之息吹",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "はやのいぶき",
+  "description": ""
+}
+{
+  "name": "顕如盤石",
+  "slot": 0,
+  "max_level": 1,
+  "type": "特殊攻撃耐性",
+  "kana": "けんにょばんじゃく",
+  "description": ""
+}
+{
+  "name": "攻撃",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "こうげき",
+  "description": ""
+}
+{
+  "name": "防御",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "ぼうぎょ",
+  "description": ""
+}
+{
+  "name": "火耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "ひたいせい",
+  "description": ""
+}
+{
+  "name": "水耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "みずたいせい",
+  "description": ""
+}
+{
+  "name": "雷耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "かみなりたいせい",
+  "description": ""
+}
+{
+  "name": "氷耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "こおりたいせい",
+  "description": ""
+}
+{
+  "name": "龍耐性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "パラメータ変化",
+  "kana": "りゅうたいせい",
+  "description": ""
+}
+{
+  "name": "火属性攻撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "ひぞくせいこうげききょうか",
+  "description": ""
+}
+{
+  "name": "水属性攻撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "みずぞくせいこうげききょうか",
+  "description": ""
+}
+{
+  "name": "雷属性攻撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "かみなりぞくせいこうげききょうか",
+  "description": ""
+}
+{
+  "name": "氷属性攻撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "こおりぞくせいこうげききょうか",
+  "description": ""
+}
+{
+  "name": "龍属性攻撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "りゅうぞくせいこうげききょうか",
+  "description": ""
+}
+{
+  "name": "毒属性強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "どくぞくせいきょうか",
+  "description": ""
+}
+{
+  "name": "爆破属性強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "ばくはぞくせいきょうか",
+  "description": ""
+}
+{
+  "name": "睡眠属性強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "すいみんぞくせいきょうか",
+  "description": ""
+}
+{
+  "name": "麻痺属性強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "まひぞくせいきょうか",
+  "description": ""
+}
+{
+  "name": "KO術",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "けーおーじゅつ",
+  "description": ""
+}
+{
+  "name": "破壊王",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "はかいおう",
+  "description": ""
+}
+{
+  "name": "スタミナ奪取",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "すたみなだっしゅ",
+  "description": ""
+}
+{
+  "name": "乗り名人",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "のりめいじん",
+  "description": ""
+}
+{
+  "name": "陽動",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "ようどう",
+  "description": ""
+}
+{
+  "name": "チャージマスター",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "ちゃーじますたー",
+  "description": ""
+}
+{
+  "name": "状態異常確定蓄積",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "じょうたいいじょうかくていちくせき",
+  "description": ""
+}
+{
+  "name": "龍気変換",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（属性・異常）",
+  "kana": "りゅうきへんかん",
+  "description": ""
+}
+{
+  "name": "",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "",
+  "description": ""
+}
