@@ -910,3 +910,75 @@
   "kana": "ひょうきれんせい",
   "description": ""
 }
+{
+  "name": "匠",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "たくみ",
+  "description": ""
+}
+{
+  "name": "業物",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "わざもの",
+  "description": ""
+}
+{
+  "name": "達人芸",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "たつじんげい",
+  "description": ""
+}
+{
+  "name": "心眼",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "しんがん",
+  "description": ""
+}
+{
+  "name": "砥石使用高速化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "といししようこうそくか",
+  "description": ""
+}
+{
+  "name": "剛刃研磨",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "ごうじんけんま",
+  "description": ""
+}
+{
+  "name": "高速変形",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "こうそくへんけい",
+  "description": ""
+}
+{
+  "name": "砲弾装填",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "ほうだんそうてん",
+  "description": ""
+}
+{
+  "name": "笛吹き名人",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（剣士専用）",
+  "kana": "ふえふきめいじん",
+  "description": ""
+}
