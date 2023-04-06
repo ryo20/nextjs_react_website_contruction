@@ -615,10 +615,298 @@
   "description": ""
 }
 {
-  "name": "",
+  "name": "見切り",
   "slot": 0,
   "max_level": 1,
   "type": "戦闘（攻撃）",
-  "kana": "",
+  "kana": "みきり",
+  "description": ""
+}
+{
+  "name": "弱点特攻",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "じゃくてんとっこう",
+  "description": ""
+}
+{
+  "name": "渾身",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "こんしん",
+  "description": ""
+}
+{
+  "name": "抜刀術【技】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ばっとうじゅつわざ",
+  "description": ""
+}
+{
+  "name": "抜刀術【力】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ばっとうじゅつちから",
+  "description": ""
+}
+{
+  "name": "超会心",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ちょうかいしん",
+  "description": ""
+}
+{
+  "name": "会心撃【属性】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "かいしんげきぞくせい",
+  "description": ""
+}
+{
+  "name": "弱点特攻【属性】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "じゃくてんとっこうぞくせい",
+  "description": ""
+}
+{
+  "name": "攻めの守勢",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "せめのしゅせい",
+  "description": ""
+}
+{
+  "name": "火事場力",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "かじばぢから",
+  "description": ""
+}
+{
+  "name": "龍気活性",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "りゅうきかっせい",
+  "description": ""
+}
+{
+  "name": "逆恨み",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "さかうらみ",
+  "description": ""
+}
+{
+  "name": "逆襲",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ぎゃくしゅう",
+  "description": ""
+}
+{
+  "name": "死中に活",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "しちゅうにかつ",
+  "description": ""
+}
+{
+  "name": "不屈",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ふくつ",
+  "description": ""
+}
+{
+  "name": "フルチャージ",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ふるちゃーじ",
+  "description": ""
+}
+{
+  "name": "力の解放",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ちからのかいほう",
+  "description": ""
+}
+{
+  "name": "挑戦者",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ちょうせんしゃ",
+  "description": ""
+}
+{
+  "name": "鈍器使い",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "どんきつかい",
+  "description": ""
+}
+{
+  "name": "集中",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "しゅうちゅう",
+  "description": ""
+}
+{
+  "name": "強化持続",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "きょうかじぞく",
+  "description": ""
+}
+{
+  "name": "砲術",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ほうじゅつ",
+  "description": ""
+}
+{
+  "name": "伏魔響命",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ふくまきょうめい",
+  "description": ""
+}
+{
+  "name": "業鎧【修羅】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ごうがいしゅら",
+  "description": ""
+}
+{
+  "name": "災禍転福",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "さいかてんぷく",
+  "description": ""
+}
+{
+  "name": "狂竜症【蝕】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "きょうりゅうしょうしょく",
+  "description": ""
+}
+{
+  "name": "攻勢",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "こうせい",
+  "description": ""
+}
+{
+  "name": "研磨術【鋭】",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "けんまじゅつえい",
+  "description": ""
+}
+{
+  "name": "刃鱗磨き",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "じんりんみがき",
+  "description": ""
+}
+{
+  "name": "連撃",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "れんげき",
+  "description": ""
+}
+{
+  "name": "巧撃",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "こうげき",
+  "description": ""
+}
+{
+  "name": "闇討ち",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "やみうち",
+  "description": ""
+}
+{
+  "name": "蓄積時攻撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ちくせきじこうげききょうか",
+  "description": ""
+}
+{
+  "name": "奮闘",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ふんとう",
+  "description": ""
+}
+{
+  "name": "狂化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "きょうか",
+  "description": ""
+}
+{
+  "name": "粉塵纏",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ふんじんまとい",
+  "description": ""
+}
+{
+  "name": "冰気錬成",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（攻撃）",
+  "kana": "ひょうきれんせい",
   "description": ""
 }
