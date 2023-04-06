@@ -4,11 +4,15 @@ import { Armor } from "lib/mongodb";
 import Container from "components/container"
 import Hero from "components/hero"
 import Select from "components/select";
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
 
-
+type Todo = {
+  value: string;
+  readonly id: number;
+};
 
 export default function Home({ armors, skills }: { armors: Armor[], skills: Skill[] }) {
+  const [todos, setTodos] = useState<Todo[]>([]);
   // Handle the submit event on form submit.
   const handleSubmit = async (event: FormEvent) => {
     // Stop the form from submitting and refreshing the page.
@@ -39,7 +43,13 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
     // Get the response data from server as JSON.
     // If server returns the name submitted, that means the form works.
     const result = await response.json()
-    alert(`${result.data}`)
+    // alert(`${result.data}`)
+    //新しい Todo を作成
+    const newTodo: Todo = {
+      value: result.data,
+      id: new Date().getTime(),
+    };
+    setTodos([newTodo, ...todos]);
   }
   return (
     <Container>
@@ -61,6 +71,15 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
       </form>
       <div>
         <p>検索結果</p>
+        <ul>
+          {todos.map((todo) => {
+            return (
+              <li key={todo.id}>
+                {todo.value}
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </Container>
   );
