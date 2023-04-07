@@ -982,3 +982,115 @@
   "kana": "ふえふきめいじん",
   "description": ""
 }
+{
+  "name": "通常弾・連射矢強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "つうじょうだんれんしゃやきょうか",
+  "description": ""
+}
+{
+  "name": "散弾・拡散矢強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "さんだんかくさんやきょうか",
+  "description": ""
+}
+{
+  "name": "貫通弾・貫通矢強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "かんつうだんかんつうやきょうか",
+  "description": ""
+}
+{
+  "name": "弾丸節約",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "だんがんせつやく",
+  "description": ""
+}
+{
+  "name": "弾導強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "だんどうきょうか",
+  "description": ""
+}
+{
+  "name": "特殊射撃強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "とくしゅしゃげききょうか",
+  "description": ""
+}
+{
+  "name": "反動軽減",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "はんどうけいげん",
+  "description": ""
+}
+{
+  "name": "装填速度",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "そうてんそくど",
+  "description": ""
+}
+{
+  "name": "装填拡張",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "そうてんかくちょう",
+  "description": ""
+}
+{
+  "name": "ブレ抑制",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "ぶれよくせい",
+  "description": ""
+}
+{
+  "name": "速射強化",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "そくしゃきょうか",
+  "description": ""
+}
+{
+  "name": "弓溜め段階解放",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "ゆみためだんかいかいほう",
+  "description": ""
+}
+{
+  "name": "チューンアップ",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "ちゅーんあっぷ",
+  "description": ""
+}
+{
+  "name": "",
+  "slot": 0,
+  "max_level": 1,
+  "type": "戦闘（ガンナー専用）",
+  "kana": "",
+  "description": ""
+}
