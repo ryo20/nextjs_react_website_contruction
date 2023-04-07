@@ -1087,10 +1087,50 @@
   "description": ""
 }
 {
-  "name": "",
+  "name": "雷紋の一致",
   "slot": 0,
   "max_level": 1,
-  "type": "戦闘（ガンナー専用）",
-  "kana": "",
+  "type": "シリーズスキル",
+  "kana": "らいもんのいっち",
+  "description": ""
+}
+{
+  "name": "風紋の一致",
+  "slot": 0,
+  "max_level": 1,
+  "type": "シリーズスキル",
+  "kana": "ふうもんのいっち",
+  "description": ""
+}
+{
+  "name": "霞皮の恩恵",
+  "slot": 0,
+  "max_level": 1,
+  "type": "シリーズスキル",
+  "kana": "かすみがわのおんけい",
+  "description": ""
+}
+{
+  "name": "鋼殻の恩恵",
+  "slot": 0,
+  "max_level": 1,
+  "type": "シリーズスキル",
+  "kana": "こうかくのおんけい",
+  "description": ""
+}
+{
+  "name": "炎鱗の恩恵",
+  "slot": 0,
+  "max_level": 1,
+  "type": "シリーズスキル",
+  "kana": "えんりんのおんけい",
+  "description": ""
+}
+{
+  "name": "風雷合一",
+  "slot": 0,
+  "max_level": 1,
+  "type": "シリーズスキル",
+  "kana": "ふうらいごういつ",
   "description": ""
 }
