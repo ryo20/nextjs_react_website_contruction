@@ -1134,3 +1134,35 @@
   "kana": "ふうらいごういつ",
   "description": ""
 }
+{
+  "name": "LV1スロット",
+  "slot": 1,
+  "max_level": 7,
+  "type": "汎用スロットスキル",
+  "kana": "1",
+  "description": ""
+}
+{
+  "name": "LV2スロット",
+  "slot": 2,
+  "max_level": 7,
+  "type": "汎用スロットスキル",
+  "kana": "2",
+  "description": ""
+}
+{
+  "name": "LV3スロット",
+  "slot": 3,
+  "max_level": 7,
+  "type": "汎用スロットスキル",
+  "kana": "3",
+  "description": ""
+}
+{
+  "name": "LV1スロット",
+  "slot": 4,
+  "max_level": 7,
+  "type": "汎用スロットスキル",
+  "kana": "4",
+  "description": ""
+}
