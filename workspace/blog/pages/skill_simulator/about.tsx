@@ -1,33 +1,29 @@
-// 現状はmongodb/index.tsxのコピー
+// skillsimulator.tsxのお試し用
 import clientPromise, { Skill } from "lib/mongodb";
 import { Armor } from "lib/mongodb";
 import Container from "components/container"
 import Hero from "components/hero"
 import Select from "components/select";
-import { FormEvent, useState } from "react";
+import { FormEvent } from "react";
 
-type SkillSet = {
-  value: string;
-  readonly id: number;
-};
+
 
 export default function Home({ armors, skills }: { armors: Armor[], skills: Skill[] }) {
-  const [skill_sets, setSkillSets] = useState<SkillSet[]>([]);
+  // Handle the submit event on form submit.
   const handleSubmit = async (event: FormEvent) => {
-    // デフォルト動作の削除
+    // Stop the form from submitting and refreshing the page.
     event.preventDefault()
 
-    // form入力の取得
+    // Cast the event target to an html form
     const form = event.target as HTMLFormElement
-    let data: any = {}
-    for (let i = 0, len = form.elements.length; i < len; i++) {
-      let element = form.elements[i] as HTMLInputElement
-      if (element.id !== "") {
-        data[element.id] = element.value
-      }
+
+    // Get data from the form.
+    const data = {
+      first: form.first.value as string,
+      last: form.last.value as string,
     }
 
-    // 入力を利用してAPIへリクエストを作成する
+    // Send the form data to our API and get a response.
     const response = await fetch('/api/form', {
       // Body of the request is the JSON data we created above.
       body: JSON.stringify(data),
@@ -39,18 +35,10 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
       method: 'POST',
     })
 
-    // APIからレスポンスを取得する
+    // Get the response data from server as JSON.
+    // If server returns the name submitted, that means the form works.
     const result = await response.json()
-
-    // レスポンスをステートに反映する
-    const newSkillSet: SkillSet = {
-      value: result.data,
-      id: new Date().getTime(),
-    };
-    // 追加していく場合
-    // setSkillSets([newSkillSet, ...skill_sets]);
-    // 最新のみ利用する場合
-    setSkillSets([newSkillSet]);
+    alert(`Is this your full name: ${result.data}`)
   }
   return (
     <Container>
@@ -60,7 +48,7 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
         imageOn={true}
       />
       {/* TODO:ボタンクリック時にレベル選択したスキルの名前とそのレベルを取得する */}
-      <form className="w-full max-w-x" onSubmit={handleSubmit}>
+      <form className="w-full max-w-x" action="/api/form" method="post">
         <div className="grid grid-cols-5 gap-2 mt-2 mb-8 text-xl">
           {skills.map((skill) => <Select skill={skill} key={skill.name}></Select>)}
         </div>
@@ -68,19 +56,19 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
           type="submit"
           value="Submit"
           className="btn btn-info"
+          onClick={(e) => e.preventDefault()}
+          onSubmit={(e) => e.preventDefault()}
         />
+      </form>
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="first">First Name</label>
+        <input type="text" id="first" name="first" required />
+        <label htmlFor="last">Last Name</label>
+        <input type="text" id="last" name="last" required />
+        <button type="submit">Submit</button>
       </form>
       <div>
         <p>検索結果</p>
-        <ul>
-          {skill_sets.map((skill_set) => {
-            return (
-              <li key={skill_set.id}>
-                {skill_set.value}
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </Container>
   );
