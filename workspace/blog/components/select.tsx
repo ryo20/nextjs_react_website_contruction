@@ -17,7 +17,7 @@ export default function Select({ skill }:
         </label>
         <select id={skill.name} className="select select-primary w-full" onChange={handleChange}>
           <option selected value={0}>lv0</option>
-          {levels.map((level) => <option value={level}>lv.{level}</option>)}
+          {levels.map((level, _) => <option value={level}>lv.{level}</option>)}
         </select>
       </div>
       <div>選択中の値:lv{value}</div>
