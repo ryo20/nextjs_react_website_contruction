@@ -1,26 +1,26 @@
 {
   "name": "スタミナ急速回復",
-  "slot": 0,
+  "slot": 2,
   "max_level": 3,
   "type": "クエスト",
   "kana": "すたみなきゅうそくかいふく",
-  "description": "スタミナの回復速度が上昇する"
+  "description": "スタミナの回復速度が速くなる"
 }
 {
   "name": "ジャンプ鉄人",
-  "slot": 0,
+  "slot": 3,
   "max_level": 1,
   "type": "クエスト",
   "kana": "じゃんぷてつじん",
-  "description": ""
+  "description": "ジャンプ中に攻撃を受けてものけぞらなくなる"
 }
 {
   "name": "ランナー",
-  "slot": 0,
+  "slot": 2,
   "max_level": 3,
   "type": "クエスト",
   "kana": "らんなー",
-  "description": ""
+  "description": "ダッシュなどの徐々にスタミナを消費する行動のスタミナ消費量が減少する"
 }
 {
   "name": "翔蟲使い",
@@ -28,1111 +28,1111 @@
   "max_level": 3,
   "type": "クエスト",
   "kana": "かけりむしつかい",
-  "description": ""
+  "description": "翔蟲の使用可能時間/回復速度が上昇する"
 }
 {
   "name": "壁面移動",
-  "slot": 0,
+  "slot": 2,
   "max_level": 3,
   "type": "クエスト",
   "kana": "へきめんいどう",
-  "description": ""
+  "description": "壁走り時のスタミナ消費を軽減する"
 }
 {
   "name": "体術",
-  "slot": 0,
+  "slot": 2,
   "max_level": 5,
   "type": "クエスト",
   "kana": "たいじゅつ",
-  "description": ""
+  "description": "回避などの固定でスタミナを消費する行動のスタミナ消費量が軽減される"
 }
 {
   "name": "地質学",
-  "slot": 0,
+  "slot": 1,
   "max_level": 3,
   "type": "クエスト",
   "kana": "ちしつがく",
-  "description": ""
+  "description": "採取ポイントの取得数が増える"
 }
 {
   "name": "植生学",
-  "slot": 0,
+  "slot": 1,
   "max_level": 4,
   "type": "クエスト",
   "kana": "しょくせいがく",
-  "description": ""
+  "description": "薬草など、消費アイテムの取得数が増える"
 }
 {
   "name": "滑走強化",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "クエスト",
   "kana": "かっそうきょうか",
-  "description": ""
+  "description": "スライディングを行うことで、一定時間会心率が上がる"
 }
 {
   "name": "腹減り耐性",
-  "slot": 0,
+  "slot": 1,
   "max_level": 3,
   "type": "クエスト",
   "kana": "はらへりたいせい",
-  "description": ""
+  "description": "時間経過による、スタミナゲージの最大値の減少を抑える"
 }
 {
   "name": "剥ぎ取り鉄人",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "クエスト",
   "kana": "はぎとりてつじん",
-  "description": ""
+  "description": "剥ぎ取り中に攻撃を受けても吹き飛ばなくなる"
 }
 {
   "name": "剥ぎ取り名人",
-  "slot": 0,
+  "slot": 99,
   "max_level": 1,
   "type": "クエスト",
   "kana": "はぎとりめいじん",
-  "description": ""
+  "description": "剥ぎ取り回数が1回が増える。(クエストの途中からは、効果が得られません)"
 }
 {
   "name": "幸運",
-  "slot": 0,
+  "slot": 3,
   "max_level": 1,
   "type": "クエスト",
   "kana": "こううん",
-  "description": ""
+  "description": "クエストクリアでもらえる報酬の数が多くなりやすい。ただし、クエストの途中からは効果が得られない"
 }
 {
   "name": "捕獲名人",
-  "slot": 0,
+  "slot": 99,
   "max_level": 1,
   "type": "クエスト",
   "kana": "ほかくめいじん",
-  "description": ""
+  "description": "捕獲でもらえる報酬の数が高確率で多くなる(クエストの途中からは効果が得られません)"
 }
 {
   "name": "供応",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "クエスト",
   "kana": "きょうおう",
-  "description": ""
+  "description": "1分ごとにヒトダマドリのいずれかの効果を取得する(一部クエストを除く)"
 }
 {
   "name": "壁面移動【翔】",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "クエスト",
   "kana": "へきめんいどうしょう",
-  "description": ""
+  "description": "壁走りを行っている間、翔蟲ゲージの回復速度が上がる"
 }
 {
   "name": "風纏",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "クエスト",
   "kana": "かぜまとい",
-  "description": ""
+  "description": "鉄蟲糸技を使用すると風を纏い、翔蟲ゲージの回復速度が上昇する。攻撃を当て続けると効果は持続し、上昇量が増加。納刀すると効果解除。"
 }
 {
   "name": "早食い",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "アイテム",
   "kana": "はやぐい",
-  "description": ""
+  "description": "肉やアイテムを食べる速度が速くなる"
 }
 {
   "name": "体力回復量UP",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "アイテム",
   "kana": "たいりょくかいふくりょうあっぷ",
-  "description": ""
+  "description": "体力回復がおこなわれたときに回復量が上がる"
 }
 {
   "name": "アイテム使用強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "アイテム",
   "kana": "あいてむしようきょうか",
-  "description": ""
+  "description": "一部のアイテムの効果時間が長くなる"
 }
 {
   "name": "キノコ大好き",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "アイテム",
   "kana": "きのこだいすき",
-  "description": ""
+  "description": "普段は食べられないキノコが食べられるようになり、有効な効果を得られるようになる"
 }
 {
   "name": "満足感",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "アイテム",
   "kana": "まんぞくかん",
-  "description": ""
+  "description": "食べたり飲んだりするアイテムが一定の確率で、もう一度使える"
 }
 {
   "name": "広域化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "アイテム",
   "kana": "こういきか",
-  "description": ""
+  "description": "一部のアイテムを使用した時の効果が一定範囲内の仲間にも作用する。レベルが上がると範囲と作用する効果が大きくなる"
 }
 {
   "name": "ボマー",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "アイテム",
-  "kana": "ボマー",
-  "description": ""
+  "kana": "ぼまー",
+  "description": "爆弾系アイテムのダメージが上がる"
 }
 {
   "name": "泡沫の舞",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "うたかたのまい",
-  "description": ""
+  "description": "泡やられを軽減し、泡によって回避能力を上昇させる"
 }
 {
   "name": "回避性能",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "戦闘（生存）",
   "kana": "かいひせいのう",
-  "description": ""
+  "description": "回避時の無敵時間が長くなる"
 }
 {
   "name": "回避距離UP",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "かいひきょりあっぷ",
-  "description": ""
+  "description": "回避時の移動距離が長くなる"
 }
 {
   "name": "飛び込み",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "戦闘（生存）",
   "kana": "とびこみ",
-  "description": ""
+  "description": "大型モンスターに向かってジャンプ回避ができるようになる。また、飛距離も延びる"
 }
 {
   "name": "ガード性能",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "戦闘（生存）",
   "kana": "がーどせいのう",
-  "description": ""
+  "description": "ガード時にのけぞりにくくなり、消費スタミナも軽減される"
 }
 {
   "name": "ガード強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "がーどきょうか",
-  "description": ""
+  "description": "通常はガードできない攻撃も、ガードできるようになる"
 }
 {
   "name": "精霊の加護",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "せいれいのかご",
-  "description": ""
+  "description": "プレイヤーが受けるダメージを25%の確率で減少させる"
 }
 {
   "name": "納刀術",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "のうとうじゅつ",
-  "description": ""
+  "description": "武器を納刀する速度が速くなる"
 }
 {
   "name": "ひるみ軽減",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "ひるみけいげん",
-  "description": ""
+  "description": "小ダメージ時のリアクションを軽減する"
 }
 {
   "name": "回復速度",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "かいふくそくど",
-  "description": ""
+  "description": "ダメージを受けた際の赤ゲージ部分の回復速度が上がる"
 }
 {
   "name": "血氣",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "けっき",
-  "description": ""
+  "description": "モンスターの部位破壊済み箇所へ攻撃がヒットしたとき、ダメージに応じて体力が回復する"
 }
 {
   "name": "合気",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 2,
   "type": "戦闘（生存）",
   "kana": "あいき",
-  "description": ""
+  "description": "疾替え発動時、タイミングよくモンスターの攻撃が重なった際、受けるダメージが軽減され、ダメージリアクションを無効化する"
 }
 {
   "name": "激昂",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（生存）",
-  "kana": "",
-  "description": "げきこう"
+  "kana": "げきこう",
+  "description": "疾替えの書【朱】使用中、大型モンスターとの戦闘で怒りを蓄積。怒りが最大時に疾替えの書【蒼】へ切替えると一定時間スタミナ消費無効。"
 }
 {
   "name": "根性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "こんじょう",
-  "description": ""
+  "description": "一定以上体力がある際に、それを超えるダメージを受けても力尽きない(1回)"
 }
 {
   "name": "剛心",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 2,
   "type": "戦闘（生存）",
   "kana": "ごうしん",
-  "description": ""
+  "description": "攻撃を当て続け剛心ゲージが最大のときにふきとぶ攻撃を受けると、一度だけダメージリアクションを無効化し、受けるダメージを軽減する効果を得る。"
 }
 {
   "name": "煽衛",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（生存）",
   "kana": "せんえい",
-  "description": ""
+  "description": "大型モンスターに狙われている間、対象のモンスターは怒りやすくなるがプレイヤーの防御性能は上がる"
 }
 {
   "name": "耳栓",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 5,
   "type": "特殊攻撃耐性",
   "kana": "みみせん",
-  "description": ""
+  "description": "大型モンスターの咆哮に対する耐性を持つ"
 }
 {
   "name": "風圧耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "ふうあつたいせい",
-  "description": ""
+  "description": "風圧に対する耐性を持つ"
 }
 {
   "name": "耐震",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "たいしん",
-  "description": ""
+  "description": "振動に対する耐性を持つ"
 }
 {
   "name": "気絶耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "きぜつたいせい",
-  "description": ""
+  "description": "気絶状態の時間を短くする"
 }
 {
   "name": "麻痺耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "まひたいせい",
-  "description": ""
+  "description": "麻痺状態の時間を短くする"
 }
 {
   "name": "毒耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "どくたいせい",
-  "description": ""
+  "description": "毒状態の時に受けるダメージを減らす"
 }
 {
   "name": "睡眠耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "すいみんたいせい",
-  "description": ""
+  "description": "	睡眠状態の時間を短くする"
 }
 {
   "name": "泥雪耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 2,
   "type": "特殊攻撃耐性",
   "kana": "でいせつたいせい",
-  "description": ""
+  "description": "モンスターの発生させた泥地や深雪での行動制限を軽減する"
 }
 {
   "name": "爆破やられ耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "ばくはやられたいせい",
-  "description": ""
+  "description": "爆破やられに対する耐性を持つ"
 }
 {
   "name": "属性やられ耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "ぞくせいやられたいせい",
-  "description": ""
+  "description": "全ての属性やられ状態に対する耐性を得る"
 }
 {
   "name": "鬼火纏",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 4,
   "type": "特殊攻撃耐性",
   "kana": "おにびまとい",
-  "description": ""
+  "description": "鬼火への耐性を得て、攻撃を行うことで鬼火を纏い、爆発を攻撃に転用する"
 }
 {
   "name": "疾之息吹",
-  "slot": 0,
+  "slot": 3,
   "max_level": 1,
   "type": "特殊攻撃耐性",
   "kana": "はやのいぶき",
-  "description": ""
+  "description": "疾替えを行うと一部の状態異常が解除、または軽減される。解除された数に応じて体力が回復する"
 }
 {
   "name": "顕如盤石",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 5,
   "type": "特殊攻撃耐性",
   "kana": "けんにょばんじゃく",
-  "description": ""
+  "description": "戦闘中の大型モンスターが怒ると、防御性能が上がる"
 }
 {
   "name": "攻撃",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 7,
   "type": "パラメータ変化",
   "kana": "こうげき",
-  "description": ""
+  "description": "プレイヤーの攻撃力を上げる"
 }
 {
   "name": "防御",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 7,
   "type": "パラメータ変化",
   "kana": "ぼうぎょ",
-  "description": ""
+  "description": "プレイヤーの防御力を上げる。レベルが上がると耐性値にも影響がある"
 }
 {
   "name": "火耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "パラメータ変化",
   "kana": "ひたいせい",
-  "description": ""
+  "description": "プレイヤーの火耐性を上げる。レベルが上がると防御力にも影響がある"
 }
 {
   "name": "水耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "パラメータ変化",
   "kana": "みずたいせい",
-  "description": ""
+  "description": "プレイヤーの水耐性を上げる。レベルが上がると防御力にも影響がある"
 }
 {
   "name": "雷耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "パラメータ変化",
   "kana": "かみなりたいせい",
-  "description": ""
+  "description": "プレイヤーの雷耐性を上げる。レベルが上がると防御力にも影響がある"
 }
 {
   "name": "氷耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "パラメータ変化",
   "kana": "こおりたいせい",
-  "description": ""
+  "description": "プレイヤーの氷耐性を上げる。レベルが上がると防御力にも影響がある"
 }
 {
   "name": "龍耐性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "パラメータ変化",
   "kana": "りゅうたいせい",
-  "description": ""
+  "description": "プレイヤーの龍耐性を上げる。レベルが上がると防御力にも影響がある"
 }
 {
   "name": "火属性攻撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 5,
   "type": "戦闘（属性・異常）",
   "kana": "ひぞくせいこうげききょうか",
-  "description": ""
+  "description": "火属性の力を強化する(武器の属性値の強化には、上限がある)"
 }
 {
   "name": "水属性攻撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 5,
   "type": "戦闘（属性・異常）",
   "kana": "みずぞくせいこうげききょうか",
-  "description": ""
+  "description": "水属性の力を強化する(武器の属性値の強化には、上限がある)"
 }
 {
   "name": "雷属性攻撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 5,
   "type": "戦闘（属性・異常）",
   "kana": "かみなりぞくせいこうげききょうか",
-  "description": ""
+  "description": "雷属性の力を強化する(武器の属性値の強化には、上限がある)"
 }
 {
   "name": "氷属性攻撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 5,
   "type": "戦闘（属性・異常）",
   "kana": "こおりぞくせいこうげききょうか",
-  "description": ""
+  "description": "氷属性の力を強化する(武器の属性値の強化には、上限がある)"
 }
 {
   "name": "龍属性攻撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 5,
   "type": "戦闘（属性・異常）",
   "kana": "りゅうぞくせいこうげききょうか",
-  "description": ""
+  "description": "龍属性の力を強化する(武器の属性値の強化には、上限がある)"
 }
 {
   "name": "毒属性強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "どくぞくせいきょうか",
-  "description": ""
+  "description": "毒の蓄積値を強化する※武器の属性値の強化には上限がある"
 }
 {
   "name": "爆破属性強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "ばくはぞくせいきょうか",
-  "description": ""
+  "description": "爆破の蓄積値を強化する。※武器の属性値の強化には上限がある"
 }
 {
   "name": "睡眠属性強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "すいみんぞくせいきょうか",
-  "description": ""
+  "description": "睡眠の蓄積値を強化する。※武器の属性値の強化には上限がある"
 }
 {
   "name": "麻痺属性強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "まひぞくせいきょうか",
-  "description": ""
+  "description": "麻痺の蓄積値を強化する。※武器の属性値の強化には上限がある"
 }
 {
   "name": "KO術",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "けーおーじゅつ",
-  "description": ""
+  "description": "モンスターを気絶状態にしやすくなる"
 }
 {
   "name": "破壊王",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "はかいおう",
-  "description": ""
+  "description": "大型モンスターの部位を破壊しやすくなる"
 }
 {
   "name": "スタミナ奪取",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "すたみなだっしゅ",
-  "description": ""
+  "description": "特定の攻撃が持つ、モンスターの疲れさせる効果が上がる"
 }
 {
   "name": "乗り名人",
-  "slot": 0,
+  "slot": 2,
   "max_level": 1,
   "type": "戦闘（属性・異常）",
   "kana": "のりめいじん",
-  "description": ""
+  "description": "モンスターの操竜が上手くなる"
 }
 {
   "name": "陽動",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "戦闘（属性・異常）",
   "kana": "ようどう",
-  "description": ""
+  "description": "攻撃を当てたとき、モンスターの注意をより強く引くようになる"
 }
 {
   "name": "チャージマスター",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "ちゃーじますたー",
-  "description": ""
+  "description": "溜め攻撃をモンスターに当てた際、溜め攻撃の属性値と状態異常蓄積値が上がる"
 }
 {
   "name": "状態異常確定蓄積",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "じょうたいいじょうかくていちくせき",
-  "description": ""
+  "description": "タイミングよくモンスターの攻撃を回避すると、一定時間、攻撃ヒット時の状態異常の蓄積が確定で発生する"
 }
 {
   "name": "龍気変換",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（属性・異常）",
   "kana": "りゅうきへんかん",
-  "description": ""
+  "description": "疾替えの書【朱】使用中、属性耐性値は全て0になり属性攻撃値へと変換される。疾替えの書【蒼】使用中、攻撃を当て続けると属性耐性値が上昇する。"
 }
 {
   "name": "見切り",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 7,
   "type": "戦闘（攻撃）",
   "kana": "みきり",
-  "description": ""
+  "description": "会心率がUPする"
 }
 {
-  "name": "弱点特攻",
-  "slot": 0,
-  "max_level": 1,
+  "name": "弱点特効",
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "じゃくてんとっこう",
-  "description": ""
+  "description": "モンスターを攻撃した際、その部位に攻撃がかなり有効であれば、会心率が上がる"
 }
 {
   "name": "渾身",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "こんしん",
-  "description": ""
+  "description": "スタミナゲージが満タンの状態をしばらく維持していると、会心率が上がる。"
 }
 {
   "name": "抜刀術【技】",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ばっとうじゅつわざ",
-  "description": ""
+  "description": "武器出し攻撃後に一定時間、会心率が上がる"
 }
 {
   "name": "抜刀術【力】",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ばっとうじゅつちから",
-  "description": ""
+  "description": "武器出し攻撃に気絶を誘発する力が追加・強化され、攻撃力も少し上がる"
 }
 {
   "name": "超会心",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ちょうかいしん",
-  "description": ""
+  "description": "会心攻撃のダメージが増加する"
 }
 {
   "name": "会心撃【属性】",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "かいしんげきぞくせい",
-  "description": ""
+  "description": "攻撃で会心が発生した際に、与える属性ダメージ(火、水、雷、氷、龍)が高くなる。"
 }
 {
-  "name": "弱点特攻【属性】",
-  "slot": 0,
-  "max_level": 1,
+  "name": "弱点特効【属性】",
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "じゃくてんとっこうぞくせい",
-  "description": ""
+  "description": "属性が有効な部位を攻撃した際、属性ダメージが増加"
 }
 {
   "name": "攻めの守勢",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "せめのしゅせい",
-  "description": ""
+  "description": "タイミング良くガードを成功させると、12秒間、攻撃力が上昇する"
 }
 {
   "name": "火事場力",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "戦闘（攻撃）",
   "kana": "かじばぢから",
-  "description": ""
+  "description": "体力が最大値の35%以下のときに防御力と攻撃力が上がる"
 }
 {
   "name": "龍気活性",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 4,
+  "max_level": 5,
   "type": "戦闘（攻撃）",
   "kana": "りゅうきかっせい",
-  "description": ""
+  "description": "体力が一定以下になると活性化した龍属性が全身を駆け巡る。武器は龍属性以外の効果を失う"
 }
 {
   "name": "逆恨み",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "戦闘（攻撃）",
   "kana": "さかうらみ",
-  "description": ""
+  "description": "体力ゲージに赤い部分がある間攻撃力が上がる"
 }
 {
   "name": "逆襲",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ぎゃくしゅう",
-  "description": ""
+  "description": "吹き飛ばされたあと、30秒間、攻撃力があがる"
 }
 {
   "name": "死中に活",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "しちゅうにかつ",
-  "description": ""
+  "description": "状態異常中は攻撃力が上がる"
 }
 {
   "name": "不屈",
-  "slot": 0,
+  "slot": 2,
   "max_level": 1,
   "type": "戦闘（攻撃）",
   "kana": "ふくつ",
-  "description": ""
+  "description": "力尽きる度に攻撃力と防御力が上がる※一部のクエストでは無効、最大2回まで"
 }
 {
   "name": "フルチャージ",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ふるちゃーじ",
-  "description": ""
+  "description": "体力が最大の時に攻撃力が上がる"
 }
 {
   "name": "力の解放",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "戦闘（攻撃）",
   "kana": "ちからのかいほう",
-  "description": ""
+  "description": "特定の条件を満たすと、一定時間会心率が上昇し、スタミナを固定で消費する行動の消費量が軽減される"
 }
 {
   "name": "挑戦者",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 5,
   "type": "戦闘（攻撃）",
   "kana": "ちょうせんしゃ",
-  "description": ""
+  "description": "戦闘中の大型モンスターが怒ると、攻撃力と会心率が上昇する"
 }
 {
   "name": "鈍器使い",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "どんきつかい",
-  "description": ""
+  "description": "切れ味が悪いほど攻撃力が上がる"
 }
 {
   "name": "集中",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "しゅうちゅう",
-  "description": ""
+  "description": "太刀、双剣、剣斧、盾斧のゲージ、大剣、ハンマー、弓の溜め速度が速くなる"
 }
 {
   "name": "強化持続",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "きょうかじぞく",
-  "description": ""
+  "description": "太刀、双剣、操虫棍、剣斧、盾斧で発生する、強化状態の持続時間を長くする"
 }
 {
   "name": "砲術",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ほうじゅつ",
-  "description": ""
+  "description": "ガンランスの砲撃、竜撃砲、盾斧のビン攻撃、徹甲榴弾など、爆発を伴う攻撃の威力が上昇"
 }
 {
   "name": "伏魔響命",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ふくまきょうめい",
-  "description": ""
+  "description": "キュリアに体力を奪われ続けるが、攻撃性能が上昇する、キュリアの増加に応じて攻撃性能がさらに上昇するほか、疾替えをおこなうと体力が回復する。"
 }
 {
   "name": "業鎧【修羅】",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ごうがいしゅら",
-  "description": ""
+  "description": "防御性能が下がる代わりに、攻撃性能が上がる。変化する各性能は疾替えの書によって異なる"
 }
 {
   "name": "災禍転福",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "さいかてんぷく",
-  "description": ""
+  "description": "状態異常や属性やられを解除すると30秒間、攻撃性能が上がる"
 }
 {
   "name": "狂竜症【蝕】",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "きょうりゅうしょうしょく",
-  "description": ""
+  "description": "狂竜症の効果が変質し、感染時に体力が徐々に減少するが、様々な効果を得る。戦闘状態だと定期的に狂竜症に感染する。"
 }
 {
   "name": "攻勢",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "こうせい",
-  "description": ""
+  "description": "毒、麻痺、属性やられ状態の大型モンスターに攻撃を当てた際、攻撃力と会心率が上がる"
 }
 {
   "name": "研磨術【鋭】",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "けんまじゅつえい",
-  "description": ""
+  "description": "斬れ味が回復した際、回復した段階によって斬れ味の性能が上がる"
 }
 {
   "name": "刃鱗磨き",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "じんりんみがき",
-  "description": ""
+  "description": "抜刀時、回避による無敵時間中に攻撃を躱すと、切れ味が回復したりボウガンの弾を装填する。弓の場合、接撃ビンの性能が一定時間上がる"
 }
 {
   "name": "連撃",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "れんげき",
-  "description": ""
+  "description": "攻撃を当て続けることで、段階的に攻撃力、属性値が上がる(上昇効果は武器種ごとに異なる)"
 }
 {
   "name": "巧撃",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "こうげき",
-  "description": ""
+  "description": "回避時、タイミングよくモンスターの攻撃が重なると、一定時間攻撃力が上がる"
 }
 {
   "name": "闇討ち",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "やみうち",
-  "description": ""
+  "description": "大型モンスターに背後から攻撃を当てると、ダメージが増加する"
 }
 {
   "name": "蓄積時攻撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ちくせきじこうげききょうか",
-  "description": ""
+  "description": "攻撃がヒットしたときに、毒、麻痺、睡眠、爆破、減気のいずれかが蓄積すると、攻撃の威力が上がる。(減気は弾やビンでの蓄積時のみ有効)"
 }
 {
   "name": "奮闘",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ふんとう",
-  "description": ""
+  "description": "体力の赤いゲージが長いほど、会心率と属性攻撃力が上昇する。"
 }
 {
   "name": "狂化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 2,
   "type": "戦闘（攻撃）",
   "kana": "きょうか",
-  "description": ""
+  "description": "疾替えの書【蒼】に切り替えると体力がすべて赤いゲージとなり徐々に減少。この時、赤いゲージが残っているかぎりダメージを受けても力尽きない。"
 }
 {
   "name": "粉塵纏",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ふんじんまとい",
-  "description": ""
+  "description": "大型モンスターの狩猟中、攻撃を当て続けることで周囲に粉塵が舞う。粉塵は時間経過によって色が変化し、色に応じて異なる効果が得られる。"
 }
 {
   "name": "冰気錬成",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 3,
   "type": "戦闘（攻撃）",
   "kana": "ひょうきれんせい",
-  "description": ""
+  "description": "納刀中、徐々に冰気が高まり、攻撃力が強化される。近接攻撃が当たる、または矢・弾を発射する度、冰気が失われていく。"
 }
 {
   "name": "匠",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 5,
   "type": "戦闘（剣士専用）",
   "kana": "たくみ",
-  "description": ""
+  "description": "武器の斬れ味ゲージが長くなる。ただし、斬れ味ゲージの限界以上には長くならない"
 }
 {
   "name": "業物",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（剣士専用）",
   "kana": "わざもの",
-  "description": ""
+  "description": "攻撃時一定確率で斬れ味を消耗しない"
 }
 {
   "name": "達人芸",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（剣士専用）",
   "kana": "たつじんげい",
-  "description": ""
+  "description": "会心発生時、一定確率で斬れ味を消耗しない"
 }
 {
   "name": "心眼",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（剣士専用）",
   "kana": "しんがん",
-  "description": ""
+  "description": "攻撃が弾かれ辛くなり、硬い部位へのダメージが上がる"
 }
 {
   "name": "砥石使用高速化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（剣士専用）",
   "kana": "といししようこうそくか",
-  "description": ""
+  "description": "砥石の使用時間が短くなる"
 }
 {
   "name": "剛刃研磨",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（剣士専用）",
   "kana": "ごうじんけんま",
-  "description": ""
+  "description": "砥石使用後、一定時間斬れ味が下がらなくなる"
 }
 {
   "name": "高速変形",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（剣士専用）",
   "kana": "こうそくへんけい",
-  "description": ""
+  "description": "スラアクとチャアクの変形攻撃の速度と火力が上昇"
 }
 {
   "name": "砲弾装填",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 2,
   "type": "戦闘（剣士専用）",
   "kana": "ほうだんそうてん",
-  "description": ""
+  "description": "砲弾の装填がスムーズになり、ガンランスの装填数が上昇。チャアクのビン装填数が増える"
 }
 {
   "name": "笛吹き名人",
-  "slot": 0,
+  "slot": 1,
   "max_level": 1,
   "type": "戦闘（剣士専用）",
   "kana": "ふえふきめいじん",
-  "description": ""
+  "description": "狩猟笛と多重演奏が素早くなり、衝撃波のダメージが上がる"
 }
 {
   "name": "通常弾・連射矢強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "つうじょうだんれんしゃやきょうか",
-  "description": ""
+  "description": "ボウガンの通常弾または弓の連射矢の攻撃力が上がる"
 }
 {
   "name": "散弾・拡散矢強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "さんだんかくさんやきょうか",
-  "description": ""
+  "description": "ボウガンの散弾、放散弾または弓の拡散矢の攻撃力が上がる"
 }
 {
   "name": "貫通弾・貫通矢強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "かんつうだんかんつうやきょうか",
-  "description": ""
+  "description": "ボウガンの貫通弾または弓の貫通矢の攻撃力が上がる"
 }
 {
   "name": "弾丸節約",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "だんがんせつやく",
-  "description": ""
+  "description": "まれにボウガンの弾・弓のビンを消費せずに発射できる"
 }
 {
   "name": "弾導強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "だんどうきょうか",
-  "description": ""
+  "description": "弾・矢の最大威力状態になる距離が広くなる"
 }
 {
   "name": "特殊射撃強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 2,
+  "max_level": 2,
   "type": "戦闘（ガンナー専用）",
   "kana": "とくしゅしゃげききょうか",
-  "description": ""
+  "description": "ボウガンの特殊弾と弓の竜の一矢の威力が上がる"
 }
 {
   "name": "反動軽減",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "はんどうけいげん",
-  "description": ""
+  "description": "ボウガンで弾を撃ったときの反動が軽減される"
 }
 {
   "name": "装填速度",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "そうてんそくど",
-  "description": ""
+  "description": "ボウガンの装填と弓のビン装着の速度が上がる"
 }
 {
   "name": "装填拡張",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "そうてんかくちょう",
-  "description": ""
+  "description": "ボウガンの装填数が増える※装填数には上限がある"
 }
 {
   "name": "ブレ抑制",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "ぶれよくせい",
-  "description": ""
+  "description": "ボウガンでの弾丸のブレが抑制される"
 }
 {
   "name": "速射強化",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 3,
   "type": "戦闘（ガンナー専用）",
   "kana": "そくしゃきょうか",
-  "description": ""
+  "description": "ライトボウガンの速射を強化する"
 }
 {
   "name": "弓溜め段階解放",
-  "slot": 0,
+  "slot": 4,
   "max_level": 1,
   "type": "戦闘（ガンナー専用）",
   "kana": "ゆみためだんかいかいほう",
-  "description": ""
+  "description": "弓の溜め段階が1段階増える。"
 }
 {
   "name": "チューンアップ",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 3,
+  "max_level": 2,
   "type": "戦闘（ガンナー専用）",
   "kana": "ちゅーんあっぷ",
-  "description": ""
+  "description": "ボウガンカスタマイズで装着する強化パーツの性能が上がる"
 }
 {
   "name": "雷紋の一致",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 5,
   "type": "シリーズスキル",
   "kana": "らいもんのいっち",
-  "description": ""
+  "description": "古龍ナルハタタヒメの力を得る"
 }
 {
   "name": "風紋の一致",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 5,
   "type": "シリーズスキル",
   "kana": "ふうもんのいっち",
-  "description": ""
+  "description": "古龍イブシマキヒコの力を得る"
 }
 {
   "name": "霞皮の恩恵",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 4,
   "type": "シリーズスキル",
   "kana": "かすみがわのおんけい",
-  "description": ""
+  "description": "古龍オオナズチの力を得る"
 }
 {
   "name": "鋼殻の恩恵",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 4,
   "type": "シリーズスキル",
   "kana": "こうかくのおんけい",
-  "description": ""
+  "description": "古龍クシャルダオラの力を得る"
 }
 {
   "name": "炎鱗の恩恵",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 1,
+  "max_level": 4,
   "type": "シリーズスキル",
   "kana": "えんりんのおんけい",
-  "description": ""
+  "description": "古龍テオテスカトルの力を得る"
 }
 {
   "name": "風雷合一",
-  "slot": 0,
-  "max_level": 1,
+  "slot": 99,
+  "max_level": 5,
   "type": "シリーズスキル",
   "kana": "ふうらいごういつ",
-  "description": ""
+  "description": "雷と龍属性を強化し、スキル効果を上昇させる"
 }
 {
   "name": "LV1スロット",
