@@ -372,7 +372,7 @@
   "max_level": 3,
   "type": "特殊攻撃耐性",
   "kana": "すいみんたいせい",
-  "description": "	睡眠状態の時間を短くする"
+  "description": "睡眠状態の時間を短くする"
 }
 {
   "name": "泥雪耐性",
