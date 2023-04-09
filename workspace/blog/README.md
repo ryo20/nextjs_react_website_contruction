@@ -45,5 +45,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 MongoDBAtlasにインサートするためには以下コマンドを利用する
 
 ```bash
-mongoimport --uri "mongodb+srv://developer:KUi16LfpHozfjne3@clustermhrsb.m2teu2v.mongodb.net/?retryWrites=true&w=majority" --db mhrsb --collection sample_armors --drop --file workspace/blog/sample_data/armors.json
+mongoimport --uri "mongodb+srv://developer:KUi16LfpHozfjne3@clustermhrsb.m2teu2v.mongodb.net/?retryWrites=true&w=majority" --db mhrsb --collection sample_armors --drop --file sample_data/armors.json
 ```

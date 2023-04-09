@@ -6,29 +6,28 @@ import Hero from "components/hero"
 import Select from "components/select";
 import { FormEvent, useState } from "react";
 
-type Todo = {
+type SkillSet = {
   value: string;
   readonly id: number;
 };
 
 export default function Home({ armors, skills }: { armors: Armor[], skills: Skill[] }) {
-  const [todos, setTodos] = useState<Todo[]>([]);
-  // Handle the submit event on form submit.
+  const [skill_sets, setSkillSets] = useState<SkillSet[]>([]);
   const handleSubmit = async (event: FormEvent) => {
-    // Stop the form from submitting and refreshing the page.
+    // デフォルト動作の削除
     event.preventDefault()
 
-    // Cast the event target to an html form
+    // form入力の取得
     const form = event.target as HTMLFormElement
-    console.log(form)
-    // Get data from the form.
-    const data = {
-      kaihi: form.回避距離UP.value as string,
-      kougeki: form.攻撃.value as string,
-      bougyo: form.防御.value as string,
+    let data: any = {}
+    for (let i = 0, len = form.elements.length; i < len; i++) {
+      let element = form.elements[i] as HTMLInputElement
+      if (element.id !== "") {
+        data[element.id] = element.value
+      }
     }
 
-    // Send the form data to our API and get a response.
+    // 入力を利用してAPIへリクエストを作成する
     const response = await fetch('/api/form', {
       // Body of the request is the JSON data we created above.
       body: JSON.stringify(data),
@@ -40,16 +39,18 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
       method: 'POST',
     })
 
-    // Get the response data from server as JSON.
-    // If server returns the name submitted, that means the form works.
+    // APIからレスポンスを取得する
     const result = await response.json()
-    // alert(`${result.data}`)
-    //新しい Todo を作成
-    const newTodo: Todo = {
+
+    // レスポンスをステートに反映する
+    const newSkillSet: SkillSet = {
       value: result.data,
       id: new Date().getTime(),
     };
-    setTodos([newTodo, ...todos]);
+    // 追加していく場合
+    // setSkillSets([newSkillSet, ...skill_sets]);
+    // 最新のみ利用する場合
+    setSkillSets([newSkillSet]);
   }
   return (
     <Container>
@@ -72,10 +73,10 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
       <div>
         <p>検索結果</p>
         <ul>
-          {todos.map((todo) => {
+          {skill_sets.map((skill_set) => {
             return (
-              <li key={todo.id}>
-                {todo.value}
+              <li key={skill_set.id}>
+                {skill_set.value}
               </li>
             );
           })}

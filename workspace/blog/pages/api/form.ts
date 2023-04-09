@@ -21,5 +21,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Data>)
   // }
 
   // Found the name.
-  res.json({ data: `回避${body.kaihi}\n攻撃${body.kougeki}\n防御${body.bougyo}` })
+  // res.json({ data: `回避${body.kaihi}\n攻撃${body.kougeki}\n防御${body.bougyo}` })
+  res.json({ data: JSON.stringify(body) })
 }
