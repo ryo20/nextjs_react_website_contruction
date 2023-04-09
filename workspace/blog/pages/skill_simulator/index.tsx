@@ -62,7 +62,7 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
       {/* TODO:ボタンクリック時にレベル選択したスキルの名前とそのレベルを取得する */}
       <form className="w-full max-w-x" onSubmit={handleSubmit}>
         <div className="grid grid-cols-5 gap-2 mt-2 mb-8 text-xl">
-          {skills.map((skill) => <Select skill={skill}></Select>)}
+          {skills.map((skill, _) => <Select skill={skill}></Select>)}
         </div>
         <input
           type="submit"
@@ -73,7 +73,7 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
       <div>
         <p>検索結果</p>
         <ul>
-          {skill_sets.map((skill_set) => {
+          {skill_sets.map((skill_set, _) => {
             return (
               <li key={skill_set.id}>
                 {skill_set.value}
