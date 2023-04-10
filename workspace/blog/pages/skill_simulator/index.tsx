@@ -22,7 +22,7 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
     let data: any = {}
     for (let i = 0, len = form.elements.length; i < len; i++) {
       let element = form.elements[i] as HTMLInputElement
-      if (element.id !== "") {
+      if (element.id !== "" && Number(element.value) > 0) {
         data[element.id] = element.value
       }
     }
@@ -93,7 +93,7 @@ export async function getServerSideProps(context: any) {
 
   let armors = await db.collection("sample_armors").find({}).limit(10).toArray();
   armors = JSON.parse(JSON.stringify(armors));
-  let skills = await db.collection("sample_skills").find({}).sort({ kana: 1 }).limit(10).toArray();
+  let skills = await db.collection("skills").find({}).sort({ kana: 1 }).toArray();
   skills = JSON.parse(JSON.stringify(skills));
   return {
     props: { armors, skills },

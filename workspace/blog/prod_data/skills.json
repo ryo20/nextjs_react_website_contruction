@@ -1159,7 +1159,7 @@
   "description": ""
 }
 {
-  "name": "LV1スロット",
+  "name": "LV4スロット",
   "slot": 4,
   "max_level": 7,
   "type": "汎用スロットスキル",
