@@ -1,0 +1,152 @@
+{
+  "name": "赫耀ノコイル・暦",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "龍気変換",
+      "level": 1
+    },
+    {
+      "name": "スタミナ急速回復",
+      "level": 3
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "リバルカイザーコイル",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "粉塵纏",
+      "level": 1
+    },
+    {
+      "name": "達人芸",
+      "level": 2
+    },
+    {
+      "name": "弾導強化",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    3,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナアンダ",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "鋼殻の恩恵",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 2
+    },
+    {
+      "name": "体力回復量UP",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    1,
+    0
+  ]
+}
+{
+  "name": "ミヅハ醒【丸帯】",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "翔蟲使い",
+      "level": 2
+    },
+    {
+      "name": "攻勢",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "ラヴィーナコイル",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "冰気錬成",
+      "level": 1
+    },
+    {
+      "name": "集中",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    3,
+    2
+  ]
+}
