@@ -47,3 +47,8 @@ MongoDBAtlasにインサートするためには以下コマンドを利用す�
 ```bash
 mongoimport --uri "mongodb+srv://developer:KUi16LfpHozfjne3@clustermhrsb.m2teu2v.mongodb.net/?retryWrites=true&w=majority" --db mhrsb --collection sample_armors --drop --file sample_data/armors.json
 ```
+
+複数ファイルの結合コマンド
+```bash
+cat sample_data/armors/* > sample_data/armors/all.json
+```

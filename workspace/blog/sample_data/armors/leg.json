@@ -1,0 +1,160 @@
+{
+  "name": "赫耀ノグリーヴ・暦",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "超会心",
+      "level": 1
+    },
+    {
+      "name": "気絶耐性",
+      "level": 3
+    },
+    {
+      "name": "攻撃",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    3,
+    0
+  ]
+}
+{
+  "name": "リバルカイザークイス",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "炎鱗の恩恵",
+      "level": 2
+    },
+    {
+      "name": "弱点特効",
+      "level": 1
+    },
+    {
+      "name": "会心撃【属性】",
+      "level": 2
+    },
+    {
+      "name": "火属性攻撃強化",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "リバルクシャナベイル",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "風纏",
+      "level": 1
+    },
+    {
+      "name": "連撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "ミヅハ醒【具足】",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "蓄積時攻撃強化",
+      "level": 1
+    },
+    {
+      "name": "霞皮の恩恵",
+      "level": 1
+    },
+    {
+      "name": "回避性能",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "ラヴィーナグリーヴ",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "氷属性攻撃強化",
+      "level": 5
+    },
+    {
+      "name": "会心撃【属性】",
+      "level": 3
+    },
+    {
+      "name": "弱点特効【属性】",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    0
+  ]
+}

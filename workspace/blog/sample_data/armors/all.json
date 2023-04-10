@@ -1,0 +1,776 @@
+{
+  "name": "赫耀ノアーム・暦",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "超会心",
+      "level": 2
+    },
+    {
+      "name": "力の解放",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "リバルカイザーアーム",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "炎鱗の恩恵",
+      "level": 2
+    },
+    {
+      "name": "達人芸",
+      "level": 1
+    },
+    {
+      "name": "弾導強化",
+      "level": 1
+    },
+    {
+      "name": "見切り",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナグラン",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "風纏",
+      "level": 1
+    },
+    {
+      "name": "連撃",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "ミヅハ醒【大袖】",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "蓄積時攻撃強化",
+      "level": 1
+    },
+    {
+      "name": "霞皮の恩恵",
+      "level": 1
+    },
+    {
+      "name": "攻勢",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    1
+  ]
+}
+{
+  "name": "ラヴィーナアーム",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "冰気錬成",
+      "level": 1
+    },
+    {
+      "name": "抜刀術【技】",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    1
+  ]
+}{
+  "name": "赫耀ノメイル・暦",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "龍気変換",
+      "level": 1
+    },
+    {
+      "name": "龍耐性",
+      "level": 3
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "リバルカイザーメイル",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "粉塵纏",
+      "level": 1
+    },
+    {
+      "name": "弱点特効",
+      "level": 1
+    },
+    {
+      "name": "見切り",
+      "level": 3
+    }
+  ],
+  "slots": [
+    2,
+    2,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナイラム",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "鋼殻の恩恵",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 2
+    },
+    {
+      "name": "業物",
+      "level": 2
+    },
+    {
+      "name": "弾丸節約",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    1
+  ]
+}
+{
+  "name": "ミヅハ醒【宿り衣】",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "蓄積時攻撃強化",
+      "level": 1
+    },
+    {
+      "name": "霞皮の恩恵",
+      "level": 2
+    },
+    {
+      "name": "翔蟲使い",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    0,
+    0
+  ]
+}
+{
+  "name": "ラヴィーナメイル",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "冰気錬成",
+      "level": 1
+    },
+    {
+      "name": "納刀術",
+      "level": 3
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    1
+  ]
+}{
+  "name": "赫耀ノヘルム・暦",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "龍気変換",
+      "level": 1
+    },
+    {
+      "name": "力の解放",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "リバルカイザーホーン",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "粉塵纏",
+      "level": 1
+    },
+    {
+      "name": "弱点特効",
+      "level": 1
+    },
+    {
+      "name": "見切り",
+      "level": 2
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナアンク",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "風纏",
+      "level": 1
+    },
+    {
+      "name": "翔蟲使い",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    1
+  ]
+}
+{
+  "name": "ミヅハ醒【額飾り】",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "フルチャージ",
+      "level": 3
+    },
+    {
+      "name": "回避性能",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "ラヴィーナヘルム",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "研磨術【鋭】",
+      "level": 3
+    },
+    {
+      "name": "剛刃研磨",
+      "level": 1
+    },
+    {
+      "name": "装填拡張",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    1,
+    0
+  ]
+}{
+  "name": "赫耀ノグリーヴ・暦",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "超会心",
+      "level": 1
+    },
+    {
+      "name": "気絶耐性",
+      "level": 3
+    },
+    {
+      "name": "攻撃",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    3,
+    0
+  ]
+}
+{
+  "name": "リバルカイザークイス",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "炎鱗の恩恵",
+      "level": 2
+    },
+    {
+      "name": "弱点特効",
+      "level": 1
+    },
+    {
+      "name": "会心撃【属性】",
+      "level": 2
+    },
+    {
+      "name": "火属性攻撃強化",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "リバルクシャナベイル",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "風纏",
+      "level": 1
+    },
+    {
+      "name": "連撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "ミヅハ醒【具足】",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "蓄積時攻撃強化",
+      "level": 1
+    },
+    {
+      "name": "霞皮の恩恵",
+      "level": 1
+    },
+    {
+      "name": "回避性能",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "ラヴィーナグリーヴ",
+  "rarity": 10,
+  "equipment_type": "leg",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "氷属性攻撃強化",
+      "level": 5
+    },
+    {
+      "name": "会心撃【属性】",
+      "level": 3
+    },
+    {
+      "name": "弱点特効【属性】",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    0
+  ]
+}{
+  "name": "赫耀ノコイル・暦",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "龍気変換",
+      "level": 1
+    },
+    {
+      "name": "スタミナ急速回復",
+      "level": 3
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "リバルカイザーコイル",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "粉塵纏",
+      "level": 1
+    },
+    {
+      "name": "達人芸",
+      "level": 2
+    },
+    {
+      "name": "弾導強化",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    3,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナアンダ",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "鋼殻の恩恵",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 2
+    },
+    {
+      "name": "体力回復量UP",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    1,
+    0
+  ]
+}
+{
+  "name": "ミヅハ醒【丸帯】",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "翔蟲使い",
+      "level": 2
+    },
+    {
+      "name": "攻勢",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "ラヴィーナコイル",
+  "rarity": 10,
+  "equipment_type": "waist",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "冰気錬成",
+      "level": 1
+    },
+    {
+      "name": "集中",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    3,
+    2
+  ]
+}

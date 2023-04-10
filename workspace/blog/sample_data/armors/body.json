@@ -1,0 +1,160 @@
+{
+  "name": "赫耀ノメイル・暦",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "龍気変換",
+      "level": 1
+    },
+    {
+      "name": "龍耐性",
+      "level": 3
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "リバルカイザーメイル",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "粉塵纏",
+      "level": 1
+    },
+    {
+      "name": "弱点特効",
+      "level": 1
+    },
+    {
+      "name": "見切り",
+      "level": 3
+    }
+  ],
+  "slots": [
+    2,
+    2,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナイラム",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "鋼殻の恩恵",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 2
+    },
+    {
+      "name": "業物",
+      "level": 2
+    },
+    {
+      "name": "弾丸節約",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    1
+  ]
+}
+{
+  "name": "ミヅハ醒【宿り衣】",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "蓄積時攻撃強化",
+      "level": 1
+    },
+    {
+      "name": "霞皮の恩恵",
+      "level": 2
+    },
+    {
+      "name": "翔蟲使い",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    0,
+    0
+  ]
+}
+{
+  "name": "ラヴィーナメイル",
+  "rarity": 10,
+  "equipment_type": "body",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "冰気錬成",
+      "level": 1
+    },
+    {
+      "name": "納刀術",
+      "level": 3
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    1
+  ]
+}

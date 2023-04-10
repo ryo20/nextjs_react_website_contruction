@@ -1,0 +1,156 @@
+{
+  "name": "赫耀ノアーム・暦",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "超会心",
+      "level": 2
+    },
+    {
+      "name": "力の解放",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    1,
+    1
+  ]
+}
+{
+  "name": "リバルカイザーアーム",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "炎鱗の恩恵",
+      "level": 2
+    },
+    {
+      "name": "達人芸",
+      "level": 1
+    },
+    {
+      "name": "弾導強化",
+      "level": 1
+    },
+    {
+      "name": "見切り",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    4,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナグラン",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "風纏",
+      "level": 1
+    },
+    {
+      "name": "連撃",
+      "level": 2
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "ミヅハ醒【大袖】",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "蓄積時攻撃強化",
+      "level": 1
+    },
+    {
+      "name": "霞皮の恩恵",
+      "level": 1
+    },
+    {
+      "name": "攻勢",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    1
+  ]
+}
+{
+  "name": "ラヴィーナアーム",
+  "rarity": 10,
+  "equipment_type": "arm",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "冰気錬成",
+      "level": 1
+    },
+    {
+      "name": "抜刀術【技】",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    1
+  ]
+}

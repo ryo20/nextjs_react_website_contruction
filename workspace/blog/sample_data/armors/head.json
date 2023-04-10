@@ -1,0 +1,152 @@
+{
+  "name": "赫耀ノヘルム・暦",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 121,
+  "resistance": {
+    "fire": -2,
+    "water": -2,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 3
+  },
+  "skills": [
+    {
+      "name": "龍気変換",
+      "level": 1
+    },
+    {
+      "name": "力の解放",
+      "level": 2
+    },
+    {
+      "name": "攻撃",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "リバルカイザーホーン",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 124,
+  "resistance": {
+    "fire": 4,
+    "water": -4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "粉塵纏",
+      "level": 1
+    },
+    {
+      "name": "弱点特効",
+      "level": 1
+    },
+    {
+      "name": "見切り",
+      "level": 2
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    0
+  ]
+}
+{
+  "name": "リバルクシャナアンク",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 124,
+  "resistance": {
+    "fire": -1,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "風纏",
+      "level": 1
+    },
+    {
+      "name": "翔蟲使い",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    2,
+    1
+  ]
+}
+{
+  "name": "ミヅハ醒【額飾り】",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 125,
+  "resistance": {
+    "fire": -5,
+    "water": 1,
+    "thunder": 0,
+    "ice": 3,
+    "dragon": -3
+  },
+  "skills": [
+    {
+      "name": "フルチャージ",
+      "level": 3
+    },
+    {
+      "name": "回避性能",
+      "level": 1
+    }
+  ],
+  "slots": [
+    4,
+    2,
+    0
+  ]
+}
+{
+  "name": "ラヴィーナヘルム",
+  "rarity": 10,
+  "equipment_type": "head",
+  "defense": 123,
+  "resistance": {
+    "fire": -3,
+    "water": 2,
+    "thunder": -1,
+    "ice": 4,
+    "dragon": -1
+  },
+  "skills": [
+    {
+      "name": "研磨術【鋭】",
+      "level": 3
+    },
+    {
+      "name": "剛刃研磨",
+      "level": 1
+    },
+    {
+      "name": "装填拡張",
+      "level": 3
+    }
+  ],
+  "slots": [
+    3,
+    1,
+    0
+  ]
+}
