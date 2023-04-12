@@ -17,6 +17,7 @@ export type Armor = {
   resistance: { fire: number, water: number, thunder: number, ice: number, dragon: number }
   skills: { name: string, level: number }[]
   slots: number[]
+  score?: number
 }
 export type Ornament = {
   _id?: ObjectId
@@ -79,10 +80,10 @@ if (process.env.NODE_ENV === 'development') {
   client = new MongoClient(uri, options)
   clientPromise = client.connect()
 }
-if (!globalWithMongo._mongoClientPromise) {
-  client = new MongoClient(uri)
-  globalWithMongo._mongoClientPromise = client.connect()
-}
+// if (!globalWithMongo._mongoClientPromise) {
+//   client = new MongoClient(uri)
+//   globalWithMongo._mongoClientPromise = client.connect()
+// }
 clientPromise = globalWithMongo._mongoClientPromise
 
 // Export a module-scoped MongoClient promise. By doing this in a
