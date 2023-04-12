@@ -33,14 +33,19 @@ export type Talisman = {
   skills: { name: string, level: number }[]
   slots: number[]
 }
+/**
+ * スキルの型
+ */
 export type Skill = {
   _id?: ObjectId
+  /** スキル名 */
   name: string
   slot: number
   max_level: number
   type: string
   kana: string
   description: string
+  request_level?: number
 }
 
 let client
