@@ -8,17 +8,22 @@ const options = {
   useNewUrlParser: true
 } as MongoClientOptions
 
+export type EquipmentType = "head" | "body" | "arm" | "waist" | "leg"
+
 export type Armor = {
   _id?: ObjectId
   name: string
   rarity: number
-  equipment_type: "head" | "body" | "arm" | "waist" | "leg"
+  equipment_type: EquipmentType
   defense: number
   resistance: { fire: number, water: number, thunder: number, ice: number, dragon: number }
   skills: { name: string, level: number }[]
   slots: number[]
   score?: number
 }
+/**
+ * 装飾品
+ */
 export type Ornament = {
   _id?: ObjectId
   name: string
@@ -26,6 +31,9 @@ export type Ornament = {
   skill: { name: string, level: number }
   slot: number
 }
+/**
+ * 護石
+ */
 export type Talisman = {
   _id?: ObjectId
   name: string
@@ -46,6 +54,17 @@ export type Skill = {
   kana: string
   description: string
   request_level?: number
+}
+export type ArmorSet = {
+  head: Armor
+  body: Armor
+  arm: Armor
+  waist: Armor
+  leg: Armor
+  talisman?: Talisman
+  ornaments?: Ornament[]
+  score?: number
+  is_fulfill_request?: boolean
 }
 
 let client

@@ -47,7 +47,6 @@ export default function Home({ armors, skills }: { armors: Armor[], skills: Skil
         subtitle="頑張る"
         imageOn={true}
       />
-      {/* TODO:ボタンクリック時にレベル選択したスキルの名前とそのレベルを取得する */}
       <form className="w-full max-w-x" action="/api/form" method="post">
         <div className="grid grid-cols-5 gap-2 mt-2 mb-8 text-xl">
           {skills.map((skill) => <Select skill={skill} key={skill.name}></Select>)}
