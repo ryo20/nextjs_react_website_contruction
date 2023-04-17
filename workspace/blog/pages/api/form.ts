@@ -54,23 +54,16 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   // 組み合わせを総当たりする
   let armor_sets: ArmorSet[] = []
   const candidate_sets = product([head, body, arm, waist, leg])
-
   // TODO:反復回数の設定をユーザーから受け取る
-  const max_iteration = 1000
-  // FIXME:探索回数上限まで以下を繰り返す
-  // スキルレベルと防御力の合計算出
-  // スキルレベル補正
-  // 要求スキルと突合し、スコア及び達成できているか判定
-  // 結果に追加
+  const max_iteration = Math.max(1000, candidate_sets.length)
+  // FIXME:探索回数上限まで探索
   for (let i = 0; i < max_iteration; i++) {
-    // armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
-    convert_to_armor_set(candidate_sets[i])
-    break;
+    armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
+    // break;
   }
-
-
+  // console.log(armor_sets)
   // 探索回数上限に達したら、要求を達成できているか>スコア総和降順という２段階のソートの上、組み合わせを返却する
-  return head
+  return armor_sets
 }
 
 /**
@@ -79,9 +72,9 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
  * @param req_skills 要求スキルセット
  * @returns candidate_set.scoreに算出結果の追加
  */
-function evaluate_armor_set(candidate_set: ArmorSet, req_skills: Skill[]): void {
+function evaluate_armor_set(candidate_set: ArmorSet, req_skills: Skill[]): ArmorSet {
   // 防御力の合計算出
-  const defense_sum: number = candidate_set.armor_array.reduce((sum, armor) => sum + armor.defense, 0)
+  const defense_score = candidate_set.armor_array.reduce((sum, armor) => sum + armor.defense, 0) / 1000
   // スキルレベルの合計算出
   // Function to calculate skill level summation
   const get_skill_level_sum = (armor_array: Armor[], skill_name: string): number => {
@@ -94,9 +87,9 @@ function evaluate_armor_set(candidate_set: ArmorSet, req_skills: Skill[]): void 
   req_skills.map((req_skill) => {
     // スキルレベルの合計値算出
     req_skill.level = get_skill_level_sum(candidate_set.armor_array, req_skill.name)
-    // 最大レベル超過を補正
-    if (req_skill.level > req_skill.max_level) {
-      req_skill.level = req_skill.max_level
+    // 要求レベル超過を補正
+    if (req_skill.level > req_skill.request_level!) {
+      req_skill.level = req_skill.request_level
     }
   })
   // スコア及び達成できているか判定
@@ -105,10 +98,12 @@ function evaluate_armor_set(candidate_set: ArmorSet, req_skills: Skill[]): void 
       ? false
       : req_skill.level >= req_skill.request_level
   })
-  // candidate_set.score =
-  // // 結果に追加
-  // let results = candidate_set
-  // return candidate_set
+  const skill_score = req_skills.reduce((acc, curr) => acc + curr.level! * curr.slot, 0)
+  // TODO:装飾品の考慮
+  // TODO:護石の考慮
+  // 結果に追加
+  candidate_set.score = defense_score + skill_score
+  return candidate_set
 }
 
 /**
