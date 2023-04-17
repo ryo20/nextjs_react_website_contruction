@@ -63,7 +63,7 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   }
   // console.log(armor_sets)
   // 探索回数上限に達したら、要求を達成できているか>スコア総和降順という２段階のソートの上、組み合わせを返却する
-  return armor_sets
+  return armor_sets.sort((a, b) => b.score! - a.score!)
 }
 
 /**
