@@ -56,7 +56,6 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   const candidate_sets = product([head, body, arm, waist, leg])
   // TODO:反復回数の設定をユーザーから受け取る
   const max_iteration = Math.max(1000, candidate_sets.length)
-  // FIXME:探索回数上限まで探索
   for (let i = 0; i < max_iteration; i++) {
     armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
     // break;
