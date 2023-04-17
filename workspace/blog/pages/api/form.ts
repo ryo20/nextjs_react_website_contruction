@@ -54,16 +54,20 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   // 組み合わせを総当たりする
   let armor_sets: ArmorSet[] = []
   const candidate_sets = product([head, body, arm, waist, leg])
+
   // TODO:反復回数の設定をユーザーから受け取る
   const max_iteration = 1000
   // FIXME:探索回数上限まで以下を繰り返す
-  for (let i = 0; i < max_iteration; i++) {
-    armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
-  }
   // スキルレベルと防御力の合計算出
   // スキルレベル補正
   // 要求スキルと突合し、スコア及び達成できているか判定
   // 結果に追加
+  for (let i = 0; i < max_iteration; i++) {
+    // armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
+    convert_to_armor_set(candidate_sets[i])
+    break;
+  }
+
 
   // 探索回数上限に達したら、要求を達成できているか>スコア総和降順という２段階のソートの上、組み合わせを返却する
   return head
@@ -149,6 +153,11 @@ export function product<T>(array2d: T[][]): T[][] {
  * @param armors 装備の配列
  * @return ArmorSet
  */
-function convert_to_armor_set(armors: Armor[]): ArmorSet {
+function convert_to_armor_set(armors: Armor[]): void {
+  const head = armors.filter((armor) => armor.equipment_type === "head")[0]
+  console.log(head)
 
+  // let armor_set = {
+  //   head:
+  // }
 }
