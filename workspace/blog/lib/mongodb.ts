@@ -54,6 +54,7 @@ export type Skill = {
   kana: string
   description: string
   request_level?: number
+  level?: number
 }
 export type ArmorSet = {
   head: Armor
@@ -61,6 +62,7 @@ export type ArmorSet = {
   arm: Armor
   waist: Armor
   leg: Armor
+  armor_array: Armor[]
   talisman?: Talisman
   ornaments?: Ornament[]
   score?: number

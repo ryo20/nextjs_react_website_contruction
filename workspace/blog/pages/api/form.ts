@@ -12,7 +12,7 @@ type Data = {
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
   // 検索対象スキルの確認
   const req_body = JSON.parse(JSON.stringify(req.body))
-  console.log(req_body)
+  // console.log(req_body)
   const query = Object.getOwnPropertyNames(req_body).map((name) => { return { "skills.name": `${name}` } })
   // db検索
   const client = await clientPromise;
@@ -33,7 +33,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 /** 装備の組み合わせを探索する */
 async function explore_armor_set(armors: Armor[], req_body: any) {
   const query = Object.getOwnPropertyNames(req_body).map((name) => { return { "name": `${name}` } })
-  console.log(query)
+  // console.log(query)
   // db検索より対象スキルの重みを取得（skill.slot）
   const client = await clientPromise;
   const db = client.db("mhrsb");
@@ -44,7 +44,7 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   // console.log(skills)
   // 装備にスコアリング(score = sum(skill.slot * armor.skill.level) + defense/1000)
   armors.map((armor) => armor.score = calculate_armor_score(armor, req_skills))
-  console.log(armors)
+  // console.log(armors)
   // 部位ごとに上位を取得
   const head = extract_top_armors(armors, "head")
   const body = extract_top_armors(armors, "body")
@@ -73,9 +73,42 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   return head
 }
 
-function evaluate_armor_set(candidate_set: ArmorSet, req_skills: Skill[]) {
-  let results = candidate_set
-  return candidate_set
+/**
+ * 装備セットのスコアを評価する
+ * @param candidate_set 評価する装備セット
+ * @param req_skills 要求スキルセット
+ * @returns candidate_set.scoreに算出結果の追加
+ */
+function evaluate_armor_set(candidate_set: ArmorSet, req_skills: Skill[]): void {
+  // 防御力の合計算出
+  const defense_sum: number = candidate_set.armor_array.reduce((sum, armor) => sum + armor.defense, 0)
+  // スキルレベルの合計算出
+  // Function to calculate skill level summation
+  const get_skill_level_sum = (armor_array: Armor[], skill_name: string): number => {
+    return armor_array
+      .flatMap((armor) =>
+        armor.skills.filter((skill) => skill.name === skill_name)
+      )
+      .reduce((sum, skill) => sum + skill.level, 0);
+  };
+  req_skills.map((req_skill) => {
+    // スキルレベルの合計値算出
+    req_skill.level = get_skill_level_sum(candidate_set.armor_array, req_skill.name)
+    // 最大レベル超過を補正
+    if (req_skill.level > req_skill.max_level) {
+      req_skill.level = req_skill.max_level
+    }
+  })
+  // スコア及び達成できているか判定
+  candidate_set.is_fulfill_request = req_skills.every((req_skill) => {
+    return typeof req_skill.level === 'undefined' || typeof req_skill.request_level === 'undefined'
+      ? false
+      : req_skill.level >= req_skill.request_level
+  })
+  // candidate_set.score =
+  // // 結果に追加
+  // let results = candidate_set
+  // return candidate_set
 }
 
 /**
@@ -153,11 +186,17 @@ export function product<T>(array2d: T[][]): T[][] {
  * @param armors 装備の配列
  * @return ArmorSet
  */
-function convert_to_armor_set(armors: Armor[]): void {
-  const head = armors.filter((armor) => armor.equipment_type === "head")[0]
-  console.log(head)
+function convert_to_armor_set(armors: Armor[]): ArmorSet {
+  // TODO:装備箇所の重複チェックの追加
 
-  // let armor_set = {
-  //   head:
-  // }
+  let armor_set: ArmorSet = {
+    head: armors.filter((armor) => armor.equipment_type === "head")[0],
+    body: armors.filter((armor) => armor.equipment_type === "body")[0],
+    arm: armors.filter((armor) => armor.equipment_type === "arm")[0],
+    waist: armors.filter((armor) => armor.equipment_type === "waist")[0],
+    leg: armors.filter((armor) => armor.equipment_type === "leg")[0],
+    armor_array: armors
+  }
+
+  return armor_set
 }
