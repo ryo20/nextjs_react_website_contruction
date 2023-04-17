@@ -12,7 +12,6 @@ type Data = {
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
   // 検索対象スキルの確認
   const req_body = JSON.parse(JSON.stringify(req.body))
-  // console.log(req_body)
   const query = Object.getOwnPropertyNames(req_body).map((name) => { return { "skills.name": `${name}` } })
   // db検索
   const client = await clientPromise;
@@ -21,10 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     // $or: query
     // }).limit(10).toArray() as Armor[]
   }).toArray() as Armor[]
-  // FIXME:装備組み合わせの検索
   const results = await explore_armor_set(armors, req_body)
-  // console.log(armors)
-  // res.json({ data: JSON.stringify(armors) })
   res.json({ data: JSON.stringify(results) })
 }
 
@@ -33,7 +29,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 /** 装備の組み合わせを探索する */
 async function explore_armor_set(armors: Armor[], req_body: any) {
   const query = Object.getOwnPropertyNames(req_body).map((name) => { return { "name": `${name}` } })
-  // console.log(query)
   // db検索より対象スキルの重みを取得（skill.slot）
   const client = await clientPromise;
   const db = client.db("mhrsb");
@@ -41,10 +36,8 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
     $or: query
   }).toArray() as Skill[]
   req_skills.map((skill) => skill.request_level = Number(req_body[skill.name]))
-  // console.log(skills)
   // 装備にスコアリング(score = sum(skill.slot * armor.skill.level) + defense/1000)
   armors.map((armor) => armor.score = calculate_armor_score(armor, req_skills))
-  // console.log(armors)
   // 部位ごとに上位を取得
   const head = extract_top_armors(armors, "head")
   const body = extract_top_armors(armors, "body")
@@ -60,7 +53,7 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
     armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
     // break;
   }
-  // console.log(armor_sets)
+  // TODO:要求達成有無によるソートの追加
   // 探索回数上限に達したら、要求を達成できているか>スコア総和降順という２段階のソートの上、組み合わせを返却する
   return armor_sets.sort((a, b) => b.score! - a.score!)
 }
@@ -174,11 +167,10 @@ export function product<T>(array2d: T[][]): T[][] {
   }
 }
 
-// FIXME:実装する
 /**
  * 受け取った装備をArmorSet型に変換する
  * @param armors 装備の配列
- * @return ArmorSet
+ * @return ArmorSet型
  */
 function convert_to_armor_set(armors: Armor[]): ArmorSet {
   // TODO:装備箇所の重複チェックの追加
