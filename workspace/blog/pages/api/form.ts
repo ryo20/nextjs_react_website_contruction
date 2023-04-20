@@ -48,13 +48,14 @@ async function explore_armor_set(armors: Armor[], req_body: any) {
   let armor_sets: ArmorSet[] = []
   const candidate_sets = product([head, body, arm, waist, leg])
   // TODO:反復回数の設定をユーザーから受け取る
-  const max_iteration = Math.max(1000, candidate_sets.length)
+  const max_iteration = Math.min(1000, candidate_sets.length)
   for (let i = 0; i < max_iteration; i++) {
     armor_sets.push(evaluate_armor_set(convert_to_armor_set(candidate_sets[i]), req_skills))
     // break;
   }
   // TODO:要求達成有無によるソートの追加
   // 探索回数上限に達したら、要求を達成できているか>スコア総和降順という２段階のソートの上、組み合わせを返却する
+  // console.log(armor_sets[0])
   return armor_sets.sort((a, b) => b.score! - a.score!)
 }
 

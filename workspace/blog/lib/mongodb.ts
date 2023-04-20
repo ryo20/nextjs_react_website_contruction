@@ -67,6 +67,7 @@ export type ArmorSet = {
   ornaments?: Ornament[]
   score?: number
   is_fulfill_request?: boolean
+  readonly id?: number
 }
 
 let client
